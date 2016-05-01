@@ -1,0 +1,440 @@
+﻿[2016.04.30-21.21.16:862][  0]Log file open, 04/30/16 17:21:16
+[2016.04.30-21.21.16:862][  0]LogInit:Display: Running engine for game: SoundofSilence
+[2016.04.30-21.21.16:862][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.30-21.21.16:862][  0]LogInit:Display: RandInit(-1918802295) SRandInit(-1918802293).
+[2016.04.30-21.21.16:862][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.30-21.21.16:862][  0]LogStats: Stats thread started at 0.126889
+[2016.04.30-21.21.16:862][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.30-21.21.16:862][  0]LogInit: API Version: 2758231
+[2016.04.30-21.21.16:862][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.30-21.21.16:862][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.30-21.21.16:862][  0]LogInit: Build Configuration: Development
+[2016.04.30-21.21.16:862][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.30-21.21.16:862][  0]LogInit: Command line:  
+[2016.04.30-21.21.16:862][  0]LogInit: Base directory: D:/Unreal4/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.30-21.21.16:862][  0]LogInit: Rocket: 1
+[2016.04.30-21.21.16:887][  0]LogInit: Using libcurl 7.41.0
+[2016.04.30-21.21.16:887][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.30-21.21.16:887][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.30-21.21.16:887][  0]LogInit:  - other features:
+[2016.04.30-21.21.16:887][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.30-21.21.16:887][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.30-21.21.16:887][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.30-21.21.16:887][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.30-21.21.16:887][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.30-21.21.16:887][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.30-21.21.16:887][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.30-21.21.16:887][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.30-21.21.16:887][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.30-21.21.16:887][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.30-21.21.16:905][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.30-21.21.16:926][  0]LogInit: Object subsystem initialized
+[2016.04.30-21.21.16:929][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.30-21.21.16:929][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.30-21.21.16:959][  0]LogInit: Computer: INDIEGO
+[2016.04.30-21.21.16:959][  0]LogInit: User: Indie
+[2016.04.30-21.21.16:959][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.30-21.21.16:959][  0]LogInit: High frequency timer resolution =2.533210 MHz
+[2016.04.30-21.21.16:959][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.04.30-21.21.16:959][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.30-21.21.16:959][  0]LogMemory: Process Physical Memory: 56.44 MB used, 56.44 MB peak
+[2016.04.30-21.21.16:959][  0]LogMemory: Process Virtual Memory: 56.62 MB used, 56.62 MB peak
+[2016.04.30-21.21.16:959][  0]LogMemory: Physical Memory: 2839.00 MB used, 16273.04 MB total
+[2016.04.30-21.21.16:959][  0]LogMemory: Virtual Memory: 364.59 MB used, 134217728.00 MB total
+[2016.04.30-21.21.17:043][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.30-21.21.18:360][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960M    (Feature Level 11_0)
+[2016.04.30-21.21.18:360][  0]LogD3D11RHI: Adapter has 1972MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2016.04.30-21.21.18:378][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.04.30-21.21.18:379][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2016.04.30-21.21.18:382][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.30-21.21.18:382][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.04.30-21.21.18:382][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.30-21.21.18:394][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.30-21.21.18:394][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.30-21.21.18:423][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.30-21.21.18:453][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Intermediate/Shaders/WorkingDirectory/3276/).
+[2016.04.30-21.21.18:454][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Indie/AppData/Local/Temp/UnrealShaderWorkingDir/25A3AA664C959F24FFBA1F8F7D7DB697/'.
+[2016.04.30-21.21.18:454][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.30-21.21.21:529][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.30-21.21.21:549][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.30-21.21.21:573][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.30-21.21.21:595][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.30-21.21.21:611][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.30-21.21.21:626][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.30-21.21.21:640][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.30-21.21.21:654][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.30-21.21.21:667][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.30-21.21.21:681][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.30-21.21.21:696][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.30-21.21.21:724][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.30-21.21.21:724][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.30-21.21.21:726][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.30-21.21.21:766][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.30-21.21.21:777][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.30-21.21.21:788][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.30-21.21.21:800][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.30-21.21.21:800][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.30-21.21.22:072][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.30-21.21.22:237][  0]LogDerivedDataCache: Loaded boot cache 0.16s 41MB C:/Users/Indie/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.30-21.21.22:238][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Indie/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.30-21.21.22:238][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.30-21.21.22:238][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.30-21.21.22:238][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.30-21.21.22:238][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.30-21.21.22:582][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.30-21.21.22:597][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Indie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.30-21.21.23:377][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.30-21.21.23:387][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.30-21.21.23:939][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.30-21.21.23:939][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.30-21.21.24:869][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.30-21.21.27:955][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.30-21.21.28:189][  0]LogAssetRegistry: FAssetRegistry took 0.0122 seconds to start up
+[2016.04.30-21.21.28:836][  0]SourceControl: Info Source control is disabled
+[2016.04.30-21.21.28:840][  0]SourceControl: Info Source control is disabled
+[2016.04.30-21.21.28:879][  0]SourceControl: Info Source control is disabled
+[2016.04.30-21.21.28:919][  0]SourceControl: Info Source control is disabled
+[2016.04.30-21.21.29:635][  0]LogObj: 28733 objects as part of root set at end of initial load.
+[2016.04.30-21.21.29:635][  0]LogUObjectAllocator: 6116368 out of 0 bytes used by permanent object pool.
+[2016.04.30-21.21.29:828][  0]LogEngine: Initializing Engine...
+[2016.04.30-21.21.29:835][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.30-21.21.29:836][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.30-21.21.30:364][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.30-21.21.30:387][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.30-21.21.30:423][  0]LogInit: FAudioDevice initialized.
+[2016.04.30-21.21.30:489][  0]LogDerivedDataCache: Saved boot cache 0.06s 41MB C:/Users/Indie/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.30-21.21.30:505][  0]LogInit: Texture streaming: Enabled
+[2016.04.30-21.21.30:521][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.30-21.21.30:521][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.30-21.21.30:521][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId aa3aaced42c420e0865af180590ebbda|502f612a496140c9a86c317a2c9fefde|df1942a8-a007-448d-b9e2-a99e192b85de
+[2016.04.30-21.21.30:522][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.30-21.21.30:556][  0]LogInit: Transaction tracking system initialized
+[2016.04.30-21.21.30:657][  0]BlueprintLog: New page: Editor Load
+[2016.04.30-21.21.30:899][  0]LocalizationService: Info Localization service is disabled
+[2016.04.30-21.21.31:951][  0]LogConsoleResponse:Display: 
+[2016.04.30-21.21.32:381][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.30-21.21.32:600][  0]LogFileCache: Scanning file cache for directory 'D:/Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/' took 0.03s
+[2016.04.30-21.21.32:600][  0]SourceControl: Info Source control is disabled
+[2016.04.30-21.21.32:601][  0]Cmd: MAP LOAD FILE="../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.30-21.21.32:602][  0]LightingResults: New page: Lighting Build
+[2016.04.30-21.21.32:609][  0]MapCheck: New page: Map Check
+[2016.04.30-21.21.32:609][  0]LightingResults: New page: Lighting Build
+[2016.04.30-21.21.32:658][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006FCBCF2AC0
+[2016.04.30-21.21.32:797][  0]LogAIModule: Creating AISystem for world Main
+[2016.04.30-21.21.32:799][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.30-21.21.32:800][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.30-21.21.32:940][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 140.218ms to complete.
+[2016.04.30-21.21.32:940][  0]LogFileHelpers: Loading map 'Main' took 0.340
+[2016.04.30-21.21.33:319][  0]LogCollectionManager: Loaded 0 collections in 0.006493 seconds
+[2016.04.30-21.21.33:371][  0]LogFileCache: Scanning file cache for directory 'D:/Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/Collections/' took 0.01s
+[2016.04.30-21.21.33:371][  0]LogFileCache: Scanning file cache for directory 'D:/Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Developers/Indie/Collections/' took 0.01s
+[2016.04.30-21.21.33:371][  0]LogFileCache: Scanning file cache for directory 'D:/Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Collections/' took 0.01s
+[2016.04.30-21.21.33:371][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2016.04.30-21.21.33:409][  0]LogContentBrowser: Native class hierarchy populated in 0.0385 seconds. Added 1894 classes and 341 folders.
+[2016.04.30-21.21.33:430][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2016.04.30-21.21.33:646][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2016.04.30-21.21.33:821][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2016.04.30-21.21.33:839][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.30-21.21.33:853][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.30-21.21.33:879][  0]LogLoad: Full Startup: 18.35 seconds (BP compile: 0.06 seconds)
+[2016.04.30-21.21.34:245][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.30-21.21.34:463][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.04.30-21.21.35:005][  0]LogRenderer: Reallocating scene render targets to support 880x708 (Frame:2).
+[2016.04.30-21.21.37:736][  8]LogAssetRegistry: Asset discovery search completed in 9.5584 seconds
+[2016.04.30-21.21.37:736][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.30-21.21.37:736][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
+[2016.04.30-21.28.58:610][312]AssetReimport: New page: Outstanding source content changes 1:28:58 PM
+[2016.04.30-21.28.58:618][312]LogFactory: FactoryCreateBinary: MediaPlayer with MediaPlayerFactory (0 0 D:/Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Music/04-The-Late-Show.mp3)
+[2016.04.30-21.28.58:710][312]LogFactory: FactoryCreateBinary: MediaPlayer with MediaPlayerFactory (0 0 D:/Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Music/05-Comfortable-Silence.wma)
+[2016.04.30-21.28.58:886][313]LogFactory: FactoryCreateBinary: MediaPlayer with MediaPlayerFactory (0 0 D:/Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Music/05-Welcome-to-Angua.mp3)
+[2016.04.30-21.28.58:918][313]LogFactory: FactoryCreateBinary: MediaPlayer with MediaPlayerFactory (0 0 D:/Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Music/08-Anodynia-Allegro-Mysterioso.wma)
+[2016.04.30-21.28.59:202][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Music/04-The-Late-Show" FILE="../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Music/04-The-Late-Show.uasset" SILENT=true
+[2016.04.30-21.28.59:233][313]LogSavePackage: Save=21.436043ms
+[2016.04.30-21.28.59:233][313]LogSavePackage: Moving '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/04-The-Late-ShowE0299DD94635FB60411208B2536466B6.tmp' to '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Music/04-The-Late-Show.uasset'
+[2016.04.30-21.28.59:241][313]LogSavePackage: Total save time: 36.531515ms
+[2016.04.30-21.28.59:241][313]LogSavePackage:Display: Finished SavePackage ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Music/04-The-Late-Show.uasset
+[2016.04.30-21.28.59:323][313]LogSavePackage: Save=7.530366ms
+[2016.04.30-21.28.59:323][313]LogSavePackage: Moving '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/05-Comfortable-Silence5BA8088946DCD941FD3E99A0853DEEDD.tmp' to '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Music/05-Comfortable-Silence.uasset'
+[2016.04.30-21.28.59:327][313]LogSavePackage: Total save time: 11.881765ms
+[2016.04.30-21.28.59:327][313]LogSavePackage:Display: Finished SavePackage ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Music/05-Comfortable-Silence.uasset
+[2016.04.30-21.28.59:361][313]LogSavePackage: Save=7.460495ms
+[2016.04.30-21.28.59:361][313]LogSavePackage: Moving '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/05-Welcome-to-Angua9D2580EA4DC4288F00CC0EA12F9C0EBE.tmp' to '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Music/05-Welcome-to-Angua.uasset'
+[2016.04.30-21.28.59:365][313]LogSavePackage: Total save time: 11.993874ms
+[2016.04.30-21.28.59:365][313]LogSavePackage:Display: Finished SavePackage ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Music/05-Welcome-to-Angua.uasset
+[2016.04.30-21.28.59:398][313]LogSavePackage: Save=7.789721ms
+[2016.04.30-21.28.59:398][313]LogSavePackage: Moving '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/08-Anodynia-Allegro-MysteriosoA5F408B449FE903D2FB49BA28E0B0B80.tmp' to '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Music/08-Anodynia-Allegro-Mysterioso.uasset'
+[2016.04.30-21.28.59:403][313]LogSavePackage: Total save time: 12.982342ms
+[2016.04.30-21.28.59:403][313]LogSavePackage:Display: Finished SavePackage ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Music/08-Anodynia-Allegro-Mysterioso.uasset
+[2016.04.30-21.29.05:114][332]AssetReimport: Info Importing new asset /Game/Music/04-The-Late-Show.
+[2016.04.30-21.29.05:114][332]AssetReimport: Info Importing new asset /Game/Music/05-Comfortable-Silence.
+[2016.04.30-21.29.05:114][332]AssetReimport: Info Importing new asset /Game/Music/05-Welcome-to-Angua.
+[2016.04.30-21.29.05:114][332]AssetReimport: Info Importing new asset /Game/Music/08-Anodynia-Allegro-Mysterioso.
+[2016.04.30-21.31.54:093][552]Cmd: MAP LOAD FILE="../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.30-21.31.54:095][552]LightingResults: New page: Lighting Build
+[2016.04.30-21.31.54:150][552]LoadErrors: New page: Loading map: Main.umap
+[2016.04.30-21.31.54:151][552]MapCheck: New page: Map Check
+[2016.04.30-21.31.54:152][552]LightingResults: New page: Lighting Build
+[2016.04.30-21.31.54:183][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006FCB8EAF20
+[2016.04.30-21.31.54:231][552]LogAIModule: Creating AISystem for world Main
+[2016.04.30-21.31.54:338][552]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.30-21.31.54:632][552]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.30-21.31.54:764][552]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 131.14ms to complete.
+[2016.04.30-21.31.54:766][552]LogFileHelpers: Loading map 'Main' took 0.677
+[2016.04.30-21.32.03:301][ 57]Cmd: MAP LOAD FILE="../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.30-21.32.03:301][ 57]LightingResults: New page: Lighting Build
+[2016.04.30-21.32.03:356][ 57]LoadErrors: New page: Loading map: Main.umap
+[2016.04.30-21.32.03:357][ 57]MapCheck: New page: Map Check
+[2016.04.30-21.32.03:357][ 57]LightingResults: New page: Lighting Build
+[2016.04.30-21.32.03:428][ 57]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006FBEC05620
+[2016.04.30-21.32.03:430][ 57]LogAIModule: Creating AISystem for world Main
+[2016.04.30-21.32.03:549][ 57]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.30-21.32.03:781][ 57]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.30-21.32.03:902][ 57]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 121.105ms to complete.
+[2016.04.30-21.32.03:908][ 57]LogFileHelpers: Loading map 'Main' took 0.610
+[2016.04.30-21.32.09:925][141]LogAIModule: Creating AISystem for world LibFirst
+[2016.04.30-21.32.10:205][141]Cmd: MAP LOAD FILE="../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Levels/LibFirst.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.30-21.32.10:206][141]LightingResults: New page: Lighting Build
+[2016.04.30-21.32.10:261][141]LoadErrors: New page: Loading map: LibFirst.umap
+[2016.04.30-21.32.10:262][141]MapCheck: New page: Map Check
+[2016.04.30-21.32.10:262][141]LightingResults: New page: Lighting Build
+[2016.04.30-21.32.10:308][141]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006FBEC074C0
+[2016.04.30-21.32.10:952][141]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.30-21.32.11:192][141]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.30-21.32.11:344][141]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 151.304ms to complete.
+[2016.04.30-21.32.11:344][141]LogFileHelpers: Loading map 'LibFirst' took 1.141
+[2016.04.30-21.32.11:359][141]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : Failed import for ObjectProperty /Game/NPCDialogueSystem/Blueprints/WB_DialogueText.WB_DialogueText_C:Dialogue
+[2016.04.30-21.32.11:463][142]Cmd: UpdateLandscapeEditorData -warnings
+[2016.04.30-21.32.11:502][142]Cmd: UpdateLandscapeEditorData
+[2016.04.30-21.32.12:919][210]LogAIModule: Creating AISystem for world Main
+[2016.04.30-21.32.12:977][210]Cmd: MAP LOAD FILE="../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.30-21.32.12:978][210]LightingResults: New page: Lighting Build
+[2016.04.30-21.32.13:033][210]LoadErrors: New page: Loading map: Main.umap
+[2016.04.30-21.32.13:040][210]MapCheck: New page: Map Check
+[2016.04.30-21.32.13:041][210]LightingResults: New page: Lighting Build
+[2016.04.30-21.32.13:078][210]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006FD97682C0
+[2016.04.30-21.32.13:272][210]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.30-21.32.13:502][210]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.30-21.32.13:655][210]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 152.323ms to complete.
+[2016.04.30-21.32.13:655][210]LogFileHelpers: Loading map 'Main' took 0.680
+[2016.04.30-21.32.13:728][211]Cmd: UpdateLandscapeEditorData
+[2016.04.30-21.32.41:216][386]LogAIModule: Creating AISystem for world HouseLevel
+[2016.04.30-21.32.41:219][386]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Explosion.P_Explosion Component=/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.vase_Blueprint_C_0.Explosion
+[2016.04.30-21.32.41:252][386]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Explosion.P_Explosion Component=/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.vase_Blueprint_C_0.Explosion
+[2016.04.30-21.32.41:253][386]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Explosion.P_Explosion Component=/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.vase_Blueprint_C_0.Explosion
+[2016.04.30-21.32.41:415][386]Cmd: MAP LOAD FILE="../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Levels/HouseLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.30-21.32.41:415][386]LightingResults: New page: Lighting Build
+[2016.04.30-21.32.41:478][386]LoadErrors: New page: Loading map: HouseLevel.umap
+[2016.04.30-21.32.41:479][386]MapCheck: New page: Map Check
+[2016.04.30-21.32.41:479][386]LightingResults: New page: Lighting Build
+[2016.04.30-21.32.41:524][386]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006FD9594900
+[2016.04.30-21.32.41:536][386]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[54] invalid
+[2016.04.30-21.32.41:537][386]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[77] invalid
+[2016.04.30-21.32.41:537][386]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[100] invalid
+[2016.04.30-21.32.41:537][386]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[101] invalid
+[2016.04.30-21.32.41:537][386]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[102] invalid
+[2016.04.30-21.32.41:537][386]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[103] invalid
+[2016.04.30-21.32.41:537][386]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[104] invalid
+[2016.04.30-21.32.42:327][386]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.30-21.32.42:666][386]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.30-21.32.42:883][386]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 216.701ms to complete.
+[2016.04.30-21.32.42:886][386]LogFileHelpers: Loading map 'HouseLevel' took 1.475
+[2016.04.30-21.32.42:905][386]LoadErrors:Error: Error /Game/Assets/BP_NPC : Failed import for ObjectProperty /Game/NPCDialogueSystem/Blueprints/WB_DialogueText.WB_DialogueText_C:Dialogue
+[2016.04.30-21.32.43:013][387]Cmd: UpdateLandscapeEditorData -warnings
+[2016.04.30-21.32.43:061][387]Cmd: UpdateLandscapeEditorData
+[2016.04.30-21.33.32:657][725]LogAIModule: Creating AISystem for world Main
+[2016.04.30-21.33.32:715][725]Cmd: MAP LOAD FILE="../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.30-21.33.32:716][725]LightingResults: New page: Lighting Build
+[2016.04.30-21.33.32:774][725]LoadErrors: New page: Loading map: Main.umap
+[2016.04.30-21.33.32:780][725]MapCheck: New page: Map Check
+[2016.04.30-21.33.32:780][725]LightingResults: New page: Lighting Build
+[2016.04.30-21.33.32:829][725]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006FBD62AA20
+[2016.04.30-21.33.33:120][725]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.30-21.33.33:346][725]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.30-21.33.33:564][725]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 216.562ms to complete.
+[2016.04.30-21.33.33:569][725]LogFileHelpers: Loading map 'Main' took 0.857
+[2016.04.30-21.33.33:635][726]Cmd: UpdateLandscapeEditorData
+[2016.04.30-21.33.34:668][772]LogLinker:Warning: Can't find file '/Game/Models/fireplace2'
+[2016.04.30-21.33.34:668][772]LogLinker:Warning: Can't find file for asset '/Game/Models/fireplace2' while loading ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Models/fireplace.uasset.
+[2016.04.30-21.33.34:669][772]LoadErrors:Error: Error /Game/Models/fireplace : Can't find file for asset. /Game/Models/fireplace2
+[2016.04.30-21.33.34:669][772]LogLinker:Warning: Can't find file '/Game/Models/fireplace_log'
+[2016.04.30-21.33.34:669][772]LogLinker:Warning: Can't find file for asset '/Game/Models/fireplace_log' while loading ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Models/fireplace.uasset.
+[2016.04.30-21.33.34:669][772]LoadErrors:Error: Error /Game/Models/fireplace : Can't find file for asset. /Game/Models/fireplace_log
+[2016.04.30-21.33.34:670][772]LogLinker:Warning: Can't find file '/Game/Models/fireplace2'
+[2016.04.30-21.33.34:670][772]LogLinker:Warning: Can't find file for asset '/Game/Models/fireplace2' while loading ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Models/fireplace.uasset.
+[2016.04.30-21.33.34:670][772]LogLinker:Warning: Can't find file '/Game/Models/fireplace_log'
+[2016.04.30-21.33.34:671][772]LogLinker:Warning: Can't find file for asset '/Game/Models/fireplace_log' while loading ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Models/fireplace.uasset.
+[2016.04.30-21.33.34:909][772]LogLinker:Warning: Can't find file '/Game/Books/Materials/blinn1'
+[2016.04.30-21.33.34:909][772]LogLinker:Warning: Can't find file for asset '/Game/Books/Materials/blinn1' while loading ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Models/Book_1.uasset.
+[2016.04.30-21.33.34:909][772]LoadErrors:Error: Error /Game/Models/Book_1 : Can't find file for asset. /Game/Books/Materials/blinn1
+[2016.04.30-21.33.34:910][772]LogLinker:Warning: Can't find file '/Game/Books/Materials/blinn2'
+[2016.04.30-21.33.34:910][772]LogLinker:Warning: Can't find file for asset '/Game/Books/Materials/blinn2' while loading ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Models/Book_1.uasset.
+[2016.04.30-21.33.34:910][772]LoadErrors:Error: Error /Game/Models/Book_1 : Can't find file for asset. /Game/Books/Materials/blinn2
+[2016.04.30-21.33.34:911][772]LogLinker:Warning: Can't find file '/Game/Books/Materials/blinn3'
+[2016.04.30-21.33.34:911][772]LogLinker:Warning: Can't find file for asset '/Game/Books/Materials/blinn3' while loading ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Models/Book_1.uasset.
+[2016.04.30-21.33.34:911][772]LoadErrors:Error: Error /Game/Models/Book_1 : Can't find file for asset. /Game/Books/Materials/blinn3
+[2016.04.30-21.33.34:911][772]LogLinker:Warning: Can't find file '/Game/Books/Materials/blinn4'
+[2016.04.30-21.33.34:912][772]LogLinker:Warning: Can't find file for asset '/Game/Books/Materials/blinn4' while loading ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Models/Book_1.uasset.
+[2016.04.30-21.33.34:912][772]LoadErrors:Error: Error /Game/Models/Book_1 : Can't find file for asset. /Game/Books/Materials/blinn4
+[2016.04.30-21.33.34:912][772]LogLinker:Warning: Can't find file '/Game/Books/Materials/blinn5'
+[2016.04.30-21.33.34:912][772]LogLinker:Warning: Can't find file for asset '/Game/Books/Materials/blinn5' while loading ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Models/Book_1.uasset.
+[2016.04.30-21.33.34:913][772]LoadErrors:Error: Error /Game/Models/Book_1 : Can't find file for asset. /Game/Books/Materials/blinn5
+[2016.04.30-21.33.34:913][772]LogLinker:Warning: Can't find file '/Game/Books/Materials/blinn1'
+[2016.04.30-21.33.34:913][772]LogLinker:Warning: Can't find file for asset '/Game/Books/Materials/blinn1' while loading ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Models/Book_1.uasset.
+[2016.04.30-21.33.34:914][772]LogLinker:Warning: Can't find file '/Game/Books/Materials/blinn2'
+[2016.04.30-21.33.34:914][772]LogLinker:Warning: Can't find file for asset '/Game/Books/Materials/blinn2' while loading ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Models/Book_1.uasset.
+[2016.04.30-21.33.34:914][772]LogLinker:Warning: Can't find file '/Game/Books/Materials/blinn3'
+[2016.04.30-21.33.34:915][772]LogLinker:Warning: Can't find file for asset '/Game/Books/Materials/blinn3' while loading ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Models/Book_1.uasset.
+[2016.04.30-21.33.34:915][772]LogLinker:Warning: Can't find file '/Game/Books/Materials/blinn4'
+[2016.04.30-21.33.34:915][772]LogLinker:Warning: Can't find file for asset '/Game/Books/Materials/blinn4' while loading ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Models/Book_1.uasset.
+[2016.04.30-21.33.34:916][772]LogLinker:Warning: Can't find file '/Game/Books/Materials/blinn5'
+[2016.04.30-21.33.34:916][772]LogLinker:Warning: Can't find file for asset '/Game/Books/Materials/blinn5' while loading ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Models/Book_1.uasset.
+[2016.04.30-21.33.35:421][772]LogLinker:Warning: Can't find file '/Game/Books/Materials/blinn1'
+[2016.04.30-21.33.35:421][772]LoadErrors: Info Failed to load /Game/Books/Materials/blinn1.blinn1 Referenced by Book_1
+[2016.04.30-21.33.35:421][772]LogLinker:Warning: Can't find file for asset '/Game/Books/Materials/blinn1' while loading NULL.
+[2016.04.30-21.33.35:422][772]LogLinker:Warning: Can't find file '/Game/Books/Materials/blinn2'
+[2016.04.30-21.33.35:422][772]LoadErrors: Info Failed to load /Game/Books/Materials/blinn2.blinn2 Referenced by Book_1
+[2016.04.30-21.33.35:422][772]LogLinker:Warning: Can't find file for asset '/Game/Books/Materials/blinn2' while loading NULL.
+[2016.04.30-21.33.35:422][772]LogLinker:Warning: Can't find file '/Game/Books/Materials/blinn3'
+[2016.04.30-21.33.35:423][772]LoadErrors: Info Failed to load /Game/Books/Materials/blinn3.blinn3 Referenced by Book_1
+[2016.04.30-21.33.35:423][772]LogLinker:Warning: Can't find file for asset '/Game/Books/Materials/blinn3' while loading NULL.
+[2016.04.30-21.33.35:423][772]LogLinker:Warning: Can't find file '/Game/Books/Materials/blinn4'
+[2016.04.30-21.33.35:423][772]LoadErrors: Info Failed to load /Game/Books/Materials/blinn4.blinn4 Referenced by Book_1
+[2016.04.30-21.33.35:424][772]LogLinker:Warning: Can't find file for asset '/Game/Books/Materials/blinn4' while loading NULL.
+[2016.04.30-21.33.35:424][772]LogLinker:Warning: Can't find file '/Game/Books/Materials/blinn5'
+[2016.04.30-21.33.35:424][772]LoadErrors: Info Failed to load /Game/Books/Materials/blinn5.blinn5 Referenced by Book_1
+[2016.04.30-21.33.35:425][772]LogLinker:Warning: Can't find file for asset '/Game/Books/Materials/blinn5' while loading NULL.
+[2016.04.30-21.33.35:443][772]LogLinker:Warning: Can't find file '/Game/Models/fireplace2'
+[2016.04.30-21.33.35:443][772]LoadErrors: Info Failed to load /Game/Models/fireplace2.fireplace2 Referenced by fireplace
+[2016.04.30-21.33.35:443][772]LogLinker:Warning: Can't find file for asset '/Game/Models/fireplace2' while loading NULL.
+[2016.04.30-21.33.35:444][772]LogLinker:Warning: Can't find file '/Game/Models/fireplace_log'
+[2016.04.30-21.33.35:444][772]LoadErrors: Info Failed to load /Game/Models/fireplace_log.fireplace_log Referenced by fireplace
+[2016.04.30-21.33.35:444][772]LogLinker:Warning: Can't find file for asset '/Game/Models/fireplace_log' while loading NULL.
+[2016.04.30-21.33.36:296][772]LogAIModule: Creating AISystem for world Library
+[2016.04.30-21.33.36:318][772]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Levels/Library.Library:PersistentLevel.Fireplace_C_2.ParticleSystem
+[2016.04.30-21.33.36:335][772]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Smoke.P_Smoke Component=/Game/Levels/Library.Library:PersistentLevel.Silence_5.ParticleSystem
+[2016.04.30-21.33.36:343][772]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Levels/Library.Library:PersistentLevel.Fireplace_C_2.ParticleSystem
+[2016.04.30-21.33.36:343][772]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Levels/Library.Library:PersistentLevel.Fireplace_C_2.ParticleSystem
+[2016.04.30-21.33.36:349][772]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Smoke.P_Smoke Component=/Game/Levels/Library.Library:PersistentLevel.Silence_5.ParticleSystem
+[2016.04.30-21.33.36:349][772]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Smoke.P_Smoke Component=/Game/Levels/Library.Library:PersistentLevel.Silence_5.ParticleSystem
+[2016.04.30-21.33.36:426][772]Cmd: MAP LOAD FILE="../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Levels/Library.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.30-21.33.36:426][772]LightingResults: New page: Lighting Build
+[2016.04.30-21.33.36:486][772]LoadErrors: New page: Loading map: Library.umap
+[2016.04.30-21.33.36:487][772]MapCheck: New page: Map Check
+[2016.04.30-21.33.36:487][772]LightingResults: New page: Lighting Build
+[2016.04.30-21.33.36:528][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006FD15B1120
+[2016.04.30-21.33.37:409][772]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.30-21.33.37:652][772]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.30-21.33.37:884][772]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 231.617ms to complete.
+[2016.04.30-21.33.37:887][772]LogFileHelpers: Loading map 'Library' took 1.465
+[2016.04.30-21.33.37:964][773]Cmd: UpdateLandscapeEditorData -warnings
+[2016.04.30-21.33.37:969][773]Cmd: UpdateLandscapeEditorData
+[2016.04.30-21.33.42:755][ 43]LogAIModule: Creating AISystem for world Main
+[2016.04.30-21.33.42:815][ 43]Cmd: MAP LOAD FILE="../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.30-21.33.42:815][ 43]LightingResults: New page: Lighting Build
+[2016.04.30-21.33.42:875][ 43]LoadErrors: New page: Loading map: Main.umap
+[2016.04.30-21.33.42:882][ 43]MapCheck: New page: Map Check
+[2016.04.30-21.33.42:883][ 43]LightingResults: New page: Lighting Build
+[2016.04.30-21.33.42:937][ 43]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006FDD455B20
+[2016.04.30-21.33.43:301][ 43]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.30-21.33.43:530][ 43]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.30-21.33.43:755][ 43]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 224.843ms to complete.
+[2016.04.30-21.33.43:760][ 43]LogFileHelpers: Loading map 'Main' took 0.948
+[2016.04.30-21.33.43:819][ 44]Cmd: UpdateLandscapeEditorData
+[2016.04.30-21.36.56:376][939]LogEditorViewport: Clicking Background
+[2016.04.30-21.37.06:800][541]LogActorComponent: UnregisterComponent: (/Engine/Transient.PathFollowingComponent) Not registered. Aborting.
+[2016.04.30-21.37.06:800][541]LogActorComponent: UnregisterComponent: (/Engine/Transient.ActionsComp) Not registered. Aborting.
+[2016.04.30-21.37.06:852][541]Cmd: MAP LOAD FILE="../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.30-21.37.06:852][541]LightingResults: New page: Lighting Build
+[2016.04.30-21.37.06:913][541]LoadErrors: New page: Loading map: Main.umap
+[2016.04.30-21.37.06:914][541]MapCheck: New page: Map Check
+[2016.04.30-21.37.06:914][541]LightingResults: New page: Lighting Build
+[2016.04.30-21.37.06:953][541]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006FDC51C2C0
+[2016.04.30-21.37.07:002][541]LogAIModule: Creating AISystem for world Main
+[2016.04.30-21.37.07:104][541]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.30-21.37.07:345][541]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.30-21.37.07:582][541]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 236.985ms to complete.
+[2016.04.30-21.37.07:586][541]LogFileHelpers: Loading map 'Main' took 0.739
+[2016.04.30-21.37.12:568][819]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2016.04.30-21.37.12:568][819]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.30-21.37.12:591][819]PIE: New page: PIE session: Main (Apr 30, 2016, 1:37:12 PM)
+[2016.04.30-21.37.12:592][819]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
+[2016.04.30-21.37.12:599][819]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007173s)
+[2016.04.30-21.37.12:601][819]LogAIModule: Creating AISystem for world Main
+[2016.04.30-21.37.12:601][819]LogPlayLevel: PIE: World Init took: (0.001815s)
+[2016.04.30-21.37.12:602][819]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.010355s)
+[2016.04.30-21.37.12:652][819]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.30-21.37.12:673][819]LogInit: FAudioDevice initialized.
+[2016.04.30-21.37.12:825][819]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.30-21.37.12:851][819]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2016.04.30-17.37.12
+[2016.04.30-21.37.12:852][819]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Main.Main:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.30-21.37.12:852][819]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Main.Main:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.30-21.37.12:853][819]LogWorld: Bringing up level for play took: 0.002824
+[2016.04.30-21.37.12:911][819]LogBlueprintUserMessages: [customGameInstance_C_0] 20.0
+[2016.04.30-21.37.12:911][819]LogBlueprintUserMessages: [customGameInstance_C_0] called customgameinstance
+[2016.04.30-21.37.12:946][819]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Main 0.86
+[2016.04.30-21.37.12:947][819]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2016.04.30-21.37.15:005][929]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2016.04.30-21.37.15:095][929]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2016.04.30-21.37.15:139][929]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006FDC6425C0
+[2016.04.30-21.37.20:295][157]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.30-21.37.22:012][157]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 107 classes and 0 folders.
+[2016.04.30-21.47.20:636][178]BlueprintLog: New page: Compile Main
+[2016.04.30-21.47.20:838][178]LogActorComponent: UnregisterComponent: (/Engine/Transient.PathFollowingComponent) Not registered. Aborting.
+[2016.04.30-21.47.20:838][178]LogActorComponent: UnregisterComponent: (/Engine/Transient.ActionsComp) Not registered. Aborting.
+[2016.04.30-21.47.20:931][178]BlueprintEditorCompileResults: Info [1565.40] Compile of Main successful! [in 294 ms]
+[2016.04.30-21.47.22:146][199]LogSavePackage: Save=232.118927ms
+[2016.04.30-21.47.22:146][199]LogSavePackage: Moving '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/Main81825ADE437715BF1F261EA72C7BD812.tmp' to '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Levels/Main.umap'
+[2016.04.30-21.47.22:151][199]LogSavePackage: Total save time: 366.837725ms
+[2016.04.30-21.47.22:151][199]LogSavePackage:Display: Finished SavePackage ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Levels/Main.umap
+[2016.04.30-21.47.22:393][199]LogFileHelpers: Saving map 'Main' took 0.952
+[2016.04.30-21.47.24:715][325]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2016.04.30-21.47.24:715][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.30-21.47.24:715][325]PIE: New page: PIE session: Main (Apr 30, 2016, 1:47:24 PM)
+[2016.04.30-21.47.24:715][325]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
+[2016.04.30-21.47.24:723][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007980s)
+[2016.04.30-21.47.24:725][325]LogAIModule: Creating AISystem for world Main
+[2016.04.30-21.47.24:726][325]LogPlayLevel: PIE: World Init took: (0.002106s)
+[2016.04.30-21.47.24:726][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.010573s)
+[2016.04.30-21.47.24:811][325]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.30-21.47.24:829][325]LogInit: FAudioDevice initialized.
+[2016.04.30-21.47.24:885][325]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.30-21.47.24:890][325]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2016.04.30-17.47.24
+[2016.04.30-21.47.24:890][325]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Main.Main:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.30-21.47.24:891][325]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Main.Main:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.30-21.47.24:891][325]LogWorld: Bringing up level for play took: 0.003029
+[2016.04.30-21.47.24:898][325]LogBlueprintUserMessages: [customGameInstance_C_1] 20.0
+[2016.04.30-21.47.24:899][325]LogBlueprintUserMessages: [customGameInstance_C_1] called customgameinstance
+[2016.04.30-21.47.24:901][325]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Main 0.815
+[2016.04.30-21.47.24:902][325]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2016.04.30-21.47.26:164][395]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2016.04.30-21.47.26:217][395]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2016.04.30-21.47.26:299][395]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006FD9857740
+[2016.04.30-21.49.05:273][577]LogActorComponent: UnregisterComponent: (/Engine/Transient.PathFollowingComponent) Not registered. Aborting.
+[2016.04.30-21.49.05:273][577]LogActorComponent: UnregisterComponent: (/Engine/Transient.ActionsComp) Not registered. Aborting.
+[2016.04.30-21.49.05:583][577]LogSavePackage: Save=224.333160ms
+[2016.04.30-21.49.05:583][577]LogSavePackage: Moving '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/Main9F86171E4AE1525C0AA098AA703CC1E0.tmp' to '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Levels/Main.umap'
+[2016.04.30-21.49.05:587][577]LogSavePackage: Total save time: 237.304445ms
+[2016.04.30-21.49.05:587][577]LogSavePackage:Display: Finished SavePackage ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Levels/Main.umap
+[2016.04.30-21.49.14:240][ 74]BlueprintLog: New page: Compile Main
+[2016.04.30-21.49.14:478][ 74]BlueprintEditorCompileResults: Info [1678.95] Compile of Main successful! [in 238 ms]
+[2016.04.30-21.51.22:928][708]BlueprintLog: New page: Compile Main
+[2016.04.30-21.51.23:181][708]BlueprintEditorCompileResults: Info [1807.65] Compile of Main successful! [in 251 ms]
+[2016.04.30-21.51.24:807][761]LogSavePackage: Save=212.233490ms
+[2016.04.30-21.51.24:807][761]LogSavePackage: Moving '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/Main596FA7724EDA96548F8ED39B62630E99.tmp' to '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Levels/Main.umap'
+[2016.04.30-21.51.24:812][761]LogSavePackage: Total save time: 229.988828ms
+[2016.04.30-21.51.24:812][761]LogSavePackage:Display: Finished SavePackage ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Levels/Main.umap
+[2016.04.30-21.51.25:061][761]LogFileHelpers: Saving map 'Main' took 0.842
+[2016.04.30-21.55.22:511][565]AssetReimport: New page: Outstanding source content changes 1:55:22 PM
+[2016.04.30-21.55.25:579][728]AssetReimport:Warning: Warning Can't create a new asset at /Game/Music/04-The-Late-Show - one already exists.
+[2016.04.30-21.58.25:262][181]AssetReimport: New page: Outstanding source content changes 1:58:25 PM
+[2016.04.30-21.58.30:281][215]AssetReimport: New page: Outstanding source content changes 1:58:30 PM
+[2016.04.30-21.58.30:283][215]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 D:/Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Music/04-The-Late-Show.wav)
+[2016.04.30-21.58.34:776][215]LogCrashTracker: 
+
+
+[2016.04.30-21.58.34:787][215]LogCrashTracker: 
+
+
+[2016.04.30-21.58.35:073][215]LogExit: Executing StaticShutdownAfterError
+[2016.04.30-21.58.35:101][215]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.04.30-21.58.35:102][215]Log file closed, 04/30/16 17:58:35

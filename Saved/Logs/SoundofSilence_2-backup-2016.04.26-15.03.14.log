@@ -1,0 +1,1147 @@
+﻿[2016.04.26-17.58.49:958][  0]Log file open, 04/26/16 13:58:49
+[2016.04.26-17.58.49:958][  0]LogInit:Display: Running engine for game: SoundofSilence
+[2016.04.26-17.58.49:958][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.26-17.58.49:958][  0]LogInit:Display: RandInit(-1954099328) SRandInit(-1954099324).
+[2016.04.26-17.58.49:958][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.26-17.58.49:958][  0]LogStats: Stats thread started at 0.143452
+[2016.04.26-17.58.49:958][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.26-17.58.49:958][  0]LogInit: API Version: 2758231
+[2016.04.26-17.58.49:959][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.26-17.58.49:959][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.26-17.58.49:959][  0]LogInit: Build Configuration: Development
+[2016.04.26-17.58.49:959][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.26-17.58.49:959][  0]LogInit: Command line:  /Temp/Autosaves/Game/Levels/UEDPCHouseLevel -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+[2016.04.26-17.58.49:959][  0]LogInit: Base directory: D:/Unreal4/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.26-17.58.49:959][  0]LogInit: Rocket: 1
+[2016.04.26-17.58.49:976][  0]LogInit: Using libcurl 7.41.0
+[2016.04.26-17.58.49:976][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.26-17.58.49:976][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.26-17.58.49:976][  0]LogInit:  - other features:
+[2016.04.26-17.58.49:976][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.26-17.58.49:976][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.26-17.58.49:976][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.26-17.58.49:976][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.26-17.58.49:976][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.26-17.58.49:976][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.26-17.58.49:976][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.26-17.58.49:976][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.26-17.58.49:976][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.26-17.58.49:976][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.26-17.58.49:995][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.26-17.58.50:021][  0]LogInit: Object subsystem initialized
+[2016.04.26-17.58.50:025][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.26-17.58.50:025][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.26-17.58.50:037][  0]LogInit: Computer: INDIEGO
+[2016.04.26-17.58.50:037][  0]LogInit: User: Indie
+[2016.04.26-17.58.50:037][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.26-17.58.50:037][  0]LogInit: High frequency timer resolution =2.533210 MHz
+[2016.04.26-17.58.50:038][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.04.26-17.58.50:038][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.26-17.58.50:038][  0]LogMemory: Process Physical Memory: 54.86 MB used, 54.86 MB peak
+[2016.04.26-17.58.50:038][  0]LogMemory: Process Virtual Memory: 56.64 MB used, 56.64 MB peak
+[2016.04.26-17.58.50:038][  0]LogMemory: Physical Memory: 5459.84 MB used, 16273.04 MB total
+[2016.04.26-17.58.50:038][  0]LogMemory: Virtual Memory: 364.59 MB used, 134217728.00 MB total
+[2016.04.26-17.58.50:125][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.26-17.58.51:417][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960M    (Feature Level 11_0)
+[2016.04.26-17.58.51:417][  0]LogD3D11RHI: Adapter has 1972MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2016.04.26-17.58.51:437][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.04.26-17.58.51:437][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2016.04.26-17.58.51:441][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.26-17.58.51:441][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.04.26-17.58.51:441][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.26-17.58.51:454][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.26-17.58.51:454][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.26-17.58.51:486][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.26-17.58.51:517][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Intermediate/Shaders/WorkingDirectory/5888/).
+[2016.04.26-17.58.51:517][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Indie/AppData/Local/Temp/UnrealShaderWorkingDir/836317B94A93A82991AF649C35C61131/'.
+[2016.04.26-17.58.51:517][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.26-17.58.54:094][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.26-17.58.54:106][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.26-17.58.54:118][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.26-17.58.54:131][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.26-17.58.54:142][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.26-17.58.54:150][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.26-17.58.54:158][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.26-17.58.54:165][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.26-17.58.54:173][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.26-17.58.54:182][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.26-17.58.54:191][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.26-17.58.54:209][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.26-17.58.54:209][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.26-17.58.54:211][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.26-17.58.54:237][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.26-17.58.54:246][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.26-17.58.54:255][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.26-17.58.54:265][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.26-17.58.54:265][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.26-17.58.54:461][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.26-17.58.54:614][  0]LogDerivedDataCache: Loaded boot cache 0.15s 41MB C:/Users/Indie/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.26-17.58.54:614][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Indie/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.26-17.58.54:614][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.26-17.58.54:614][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.26-17.58.54:614][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.26-17.58.54:614][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.26-17.58.54:835][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.26-17.58.54:849][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Indie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.26-17.58.55:377][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.26-17.58.55:386][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2016.04.26-17.58.55:727][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.26-17.58.55:727][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.26-17.58.56:437][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.26-17.58.56:891][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Movies/Default_Startup.mp4
+[2016.04.26-17.58.57:225][  0]SourceControl: Info Source control is disabled
+[2016.04.26-17.58.57:225][  0]SourceControl: Info Source control is disabled
+[2016.04.26-17.58.57:251][  0]SourceControl: Info Source control is disabled
+[2016.04.26-17.58.57:649][  0]LogObj: 28035 objects as part of root set at end of initial load.
+[2016.04.26-17.58.57:649][  0]LogUObjectAllocator: 5846696 out of 0 bytes used by permanent object pool.
+[2016.04.26-17.58.57:849][  0]LogEngine: Initializing Engine...
+[2016.04.26-17.58.57:857][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.26-17.58.57:859][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.26-17.58.58:188][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.26-17.58.58:214][  0]LogInit: FAudioDevice initialized.
+[2016.04.26-17.58.58:223][  0]LogInit: Texture streaming: Enabled
+[2016.04.26-17.58.58:444][  0]LogNet: Browse: /Temp/Autosaves/Game/Levels/UEDPCHouseLevel?Name=Player
+[2016.04.26-17.58.58:444][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Levels/UEDPCHouseLevel?Name=Player
+[2016.04.26-17.58.58:477][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000504721D1C0
+[2016.04.26-17.58.58:508][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.26-17.58.58:508][  0]LogMemory: Process Physical Memory: 364.71 MB used, 365.09 MB peak
+[2016.04.26-17.58.58:508][  0]LogMemory: Process Virtual Memory: 334.79 MB used, 335.18 MB peak
+[2016.04.26-17.58.58:508][  0]LogMemory: Physical Memory: 5719.60 MB used, 16273.04 MB total
+[2016.04.26-17.58.58:508][  0]LogMemory: Virtual Memory: 870.87 MB used, 134217728.00 MB total
+[2016.04.26-17.58.58:508][  0]LogMemory: 
+[2016.04.26-17.58.58:508][  0]Allocator Stats for TBB: (not implemented)
+[2016.04.26-17.59.03:598][  0]LogAIModule: Creating AISystem for world HouseLevel
+[2016.04.26-17.59.03:607][  0]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.26-17.59.03:619][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[54] invalid
+[2016.04.26-17.59.03:619][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[77] invalid
+[2016.04.26-17.59.03:619][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[100] invalid
+[2016.04.26-17.59.03:619][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[101] invalid
+[2016.04.26-17.59.03:619][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[102] invalid
+[2016.04.26-17.59.03:619][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[103] invalid
+[2016.04.26-17.59.03:620][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[104] invalid
+[2016.04.26-17.59.03:672][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Levels/UEDPCHouseLevel.HouseLevel up for play (max tick rate 0) at 2016.04.26-13.59.03
+[2016.04.26-17.59.03:678][  0]LogWorld: Bringing up level for play took: 0.067872
+[2016.04.26-17.59.03:701][  0]LogAnalytics: Creating configured Analytics provider FileLogging
+[2016.04.26-17.59.03:702][  0]LogFileLoggingAnalytics:Display: Session created file (../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/Analytics/f7fd99f1d803ebbcafe1a7209dc22344-2016.04.26-13.59.03.analytics) for user (f7fd99f1d803ebbcafe1a7209dc22344)
+[2016.04.26-17.59.03:702][  0]LogBlueprintUserMessages: [HouseLevel_C_1] Session starts!true
+[2016.04.26-17.59.03:707][  0]LogInit:Display: Game Engine Initialized.
+[2016.04.26-17.59.03:944][  0]LogLoad: Full Startup: 14.71 seconds (BP compile: 1.28 seconds)
+[2016.04.26-17.59.03:961][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.26-17.59.03:967][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.26-17.59.04:214][  0]LogRenderer: Reallocating scene render targets to support 128x128 (Frame:1).
+[2016.04.26-17.59.04:382][  0]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2).
+[2016.04.26-17.59.04:382][  0]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:382][  0]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:394][  1]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Landed
+[2016.04.26-17.59.04:431][  1]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:572][  2]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:589][  3]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:606][  4]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:672][  5]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:686][  6]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:704][  7]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:724][  8]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:743][  9]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:760][ 10]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:780][ 11]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:795][ 12]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:812][ 13]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:828][ 14]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:844][ 15]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:862][ 16]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:878][ 17]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:895][ 18]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:910][ 19]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:926][ 20]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:944][ 21]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:959][ 22]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:976][ 23]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.04:991][ 24]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:003][ 25]LogAnalytics: Creating configured Analytics provider FileLogging
+[2016.04.26-17.59.05:003][ 25]LogFileLoggingAnalytics:Display: Analytics event (Player Location) written with (4) attributes
+[2016.04.26-17.59.05:003][ 25]LogBlueprintUserMessages: [HouseLevel_C_1] Time: 1/ X: 600.0/ Y: -100.0/ Z: 221.793091
+[2016.04.26-17.59.05:011][ 25]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:026][ 26]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:041][ 27]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:057][ 28]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:074][ 29]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:091][ 30]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:105][ 31]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:123][ 32]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:137][ 33]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:154][ 34]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:170][ 35]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:185][ 36]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:201][ 37]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:217][ 38]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:233][ 39]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:249][ 40]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:265][ 41]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:281][ 42]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:298][ 43]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:314][ 44]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:330][ 45]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:345][ 46]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:362][ 47]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:378][ 48]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:394][ 49]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:410][ 50]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:426][ 51]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:443][ 52]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:458][ 53]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:475][ 54]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:491][ 55]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:508][ 56]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:524][ 57]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:540][ 58]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:556][ 59]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:572][ 60]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:588][ 61]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:604][ 62]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:620][ 63]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:636][ 64]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:652][ 65]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:668][ 66]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:685][ 67]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:701][ 68]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:718][ 69]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:734][ 70]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:750][ 71]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:766][ 72]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:782][ 73]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:798][ 74]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:814][ 75]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:830][ 76]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:846][ 77]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:863][ 78]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:879][ 79]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:895][ 80]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:911][ 81]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:927][ 82]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:943][ 83]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:959][ 84]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:976][ 85]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.05:992][ 86]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:004][ 87]LogAnalytics: Creating configured Analytics provider FileLogging
+[2016.04.26-17.59.06:004][ 87]LogFileLoggingAnalytics:Display: Analytics event (Player Location) written with (4) attributes
+[2016.04.26-17.59.06:004][ 87]LogBlueprintUserMessages: [HouseLevel_C_1] Time: 2/ X: 600.0/ Y: -100.0/ Z: 221.793091
+[2016.04.26-17.59.06:009][ 87]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:024][ 88]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:040][ 89]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:056][ 90]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:073][ 91]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:089][ 92]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:104][ 93]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:121][ 94]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:137][ 95]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:153][ 96]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:169][ 97]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:185][ 98]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:201][ 99]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:217][100]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:233][101]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:249][102]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:266][103]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:282][104]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:298][105]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:314][106]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:330][107]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:346][108]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:363][109]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:378][110]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:378][110]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:394][111]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:411][112]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:427][113]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:442][114]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:459][115]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:475][116]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:491][117]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:507][118]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:523][119]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:540][120]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:552][121]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.26-17.59.06:557][121]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:572][122]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:588][123]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:604][124]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:621][125]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:637][126]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:653][127]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:669][128]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:685][129]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:701][130]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:717][131]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:733][132]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:750][133]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:765][134]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:781][135]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:797][136]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:813][137]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:830][138]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:846][139]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:862][140]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:878][141]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:894][142]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:910][143]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:926][144]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:942][145]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:958][146]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:976][147]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.06:990][148]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:003][149]LogAnalytics: Creating configured Analytics provider FileLogging
+[2016.04.26-17.59.07:003][149]LogFileLoggingAnalytics:Display: Analytics event (Player Location) written with (4) attributes
+[2016.04.26-17.59.07:005][149]LogBlueprintUserMessages: [HouseLevel_C_1] Time: 3/ X: 600.0/ Y: -100.0/ Z: 221.793091
+[2016.04.26-17.59.07:008][149]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:025][150]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:041][151]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:056][152]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:073][153]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:089][154]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:105][155]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:121][156]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:137][157]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:153][158]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:170][159]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:186][160]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:202][161]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:218][162]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:234][163]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:250][164]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:266][165]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:282][166]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:298][167]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:314][168]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:330][169]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:347][170]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:363][171]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:379][172]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:395][173]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:411][174]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:427][175]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:443][176]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:459][177]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:476][178]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:492][179]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:508][180]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:524][181]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:574][182]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:590][183]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:607][184]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:625][185]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:639][186]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:655][187]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:671][188]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:687][189]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:703][190]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:720][191]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:735][192]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:751][193]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:768][194]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:783][195]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:800][196]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:816][197]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:832][198]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:848][199]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:864][200]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:880][201]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:896][202]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:912][203]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:929][204]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:945][205]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:961][206]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:980][207]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.07:996][208]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:009][209]LogAnalytics: Creating configured Analytics provider FileLogging
+[2016.04.26-17.59.08:009][209]LogFileLoggingAnalytics:Display: Analytics event (Player Location) written with (4) attributes
+[2016.04.26-17.59.08:009][209]LogBlueprintUserMessages: [HouseLevel_C_1] Time: 4/ X: 666.026001/ Y: -300.454407/ Z: 221.91571
+[2016.04.26-17.59.08:013][209]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:030][210]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:072][211]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:089][212]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:105][213]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:121][214]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:137][215]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:153][216]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:170][217]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:186][218]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:202][219]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:218][220]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:234][221]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:250][222]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:266][223]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:282][224]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:298][225]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:315][226]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:331][227]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:347][228]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:363][229]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:380][230]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:380][230]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:396][231]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:411][232]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:428][233]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:444][234]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:461][235]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:477][236]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:493][237]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:509][238]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:525][239]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:541][240]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:557][241]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:573][242]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:589][243]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:605][244]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:622][245]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:638][246]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:654][247]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:671][248]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:686][249]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:703][250]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:719][251]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:735][252]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:751][253]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:767][254]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:783][255]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:799][256]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:815][257]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:831][258]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:847][259]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:863][260]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:880][261]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:896][262]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:912][263]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:928][264]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:944][265]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:960][266]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:976][267]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.08:993][268]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:009][269]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:021][270]LogAnalytics: Creating configured Analytics provider FileLogging
+[2016.04.26-17.59.09:021][270]LogFileLoggingAnalytics:Display: Analytics event (Player Location) written with (4) attributes
+[2016.04.26-17.59.09:021][270]LogBlueprintUserMessages: [HouseLevel_C_1] Time: 5/ X: 678.681458/ Y: -475.544403/ Z: 221.91571
+[2016.04.26-17.59.09:025][270]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:041][271]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:057][272]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:073][273]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:089][274]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:105][275]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:121][276]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:138][277]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:154][278]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:170][279]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:186][280]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:202][281]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:219][282]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:234][283]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:250][284]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:267][285]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:283][286]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:299][287]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:315][288]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:331][289]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:347][290]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:363][291]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:379][292]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:395][293]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:412][294]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:428][295]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:444][296]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:460][297]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:476][298]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:492][299]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:508][300]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:524][301]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:541][302]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:557][303]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:573][304]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:589][305]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:605][306]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:621][307]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:637][308]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:653][309]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:670][310]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:686][311]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:702][312]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:718][313]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:734][314]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:750][315]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:766][316]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:782][317]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:799][318]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:814][319]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:831][320]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:848][321]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:864][322]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:880][323]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:896][324]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:912][325]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:930][326]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:945][327]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:962][328]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:977][329]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.09:993][330]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:009][331]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:021][332]LogAnalytics: Creating configured Analytics provider FileLogging
+[2016.04.26-17.59.10:022][332]LogFileLoggingAnalytics:Display: Analytics event (Player Location) written with (4) attributes
+[2016.04.26-17.59.10:022][332]LogBlueprintUserMessages: [HouseLevel_C_1] Time: 6/ X: 175.005936/ Y: -454.951233/ Z: 214.661926
+[2016.04.26-17.59.10:025][332]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:042][333]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:057][334]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:074][335]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:090][336]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:106][337]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:122][338]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:138][339]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:154][340]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:170][341]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:186][342]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:202][343]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:219][344]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:235][345]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:251][346]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:267][347]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:283][348]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:300][349]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:316][350]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:331][351]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:347][352]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:363][353]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:380][354]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:380][354]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:396][355]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:412][356]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:428][357]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:444][358]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:460][359]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:476][360]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:492][361]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:508][362]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:525][363]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:541][364]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:557][365]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:573][366]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:589][367]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:605][368]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:621][369]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:637][370]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:653][371]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:670][372]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:686][373]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:702][374]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:718][375]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:734][376]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:750][377]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:766][378]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:782][379]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:800][380]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:815][381]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:832][382]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:848][383]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:864][384]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:881][385]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:896][386]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:912][387]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:928][388]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:944][389]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:960][390]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:977][391]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.10:993][392]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:009][393]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:021][394]LogAnalytics: Creating configured Analytics provider FileLogging
+[2016.04.26-17.59.11:022][394]LogFileLoggingAnalytics:Display: Analytics event (Player Location) written with (4) attributes
+[2016.04.26-17.59.11:022][394]LogBlueprintUserMessages: [HouseLevel_C_1] Time: 7/ X: -159.374954/ Y: -731.13147/ Z: 214.006683
+[2016.04.26-17.59.11:025][394]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:041][395]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:057][396]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:073][397]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:089][398]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:106][399]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:121][400]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:137][401]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:154][402]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:170][403]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:186][404]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:202][405]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:218][406]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:234][407]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:250][408]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:267][409]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:283][410]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:299][411]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:315][412]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:332][413]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:348][414]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:364][415]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:380][416]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:396][417]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:412][418]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:429][419]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:444][420]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:460][421]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:477][422]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:493][423]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:509][424]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:525][425]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:541][426]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:557][427]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:573][428]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:590][429]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:606][430]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:621][431]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:637][432]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:654][433]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:670][434]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:686][435]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:702][436]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:718][437]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:734][438]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:750][439]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:766][440]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:783][441]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:799][442]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:815][443]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:831][444]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:847][445]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:863][446]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:880][447]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:896][448]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:912][449]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:928][450]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:944][451]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:960][452]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:976][453]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.11:992][454]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:009][455]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:021][456]LogAnalytics: Creating configured Analytics provider FileLogging
+[2016.04.26-17.59.12:021][456]LogFileLoggingAnalytics:Display: Analytics event (Player Location) written with (4) attributes
+[2016.04.26-17.59.12:021][456]LogBlueprintUserMessages: [HouseLevel_C_1] Time: 8/ X: -408.391205/ Y: -694.014954/ Z: 214.006699
+[2016.04.26-17.59.12:025][456]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:040][457]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:056][458]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:072][459]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:089][460]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:105][461]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:121][462]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:137][463]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:153][464]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:169][465]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:185][466]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:201][467]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:218][468]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:234][469]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:251][470]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:267][471]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:283][472]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:299][473]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:315][474]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:332][475]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:348][476]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:364][477]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:380][478]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:380][478]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:396][479]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:412][480]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:429][481]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:444][482]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:461][483]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:477][484]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:493][485]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:509][486]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:525][487]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:541][488]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:557][489]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:573][490]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:589][491]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:605][492]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:621][493]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:638][494]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:654][495]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:671][496]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:686][497]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:702][498]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:718][499]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:734][500]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:750][501]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:767][502]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:783][503]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:799][504]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:815][505]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:831][506]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:847][507]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:863][508]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:880][509]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:896][510]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:912][511]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:928][512]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:944][513]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:960][514]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:976][515]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.12:993][516]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:009][517]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:021][518]LogAnalytics: Creating configured Analytics provider FileLogging
+[2016.04.26-17.59.13:021][518]LogFileLoggingAnalytics:Display: Analytics event (Player Location) written with (4) attributes
+[2016.04.26-17.59.13:021][518]LogBlueprintUserMessages: [HouseLevel_C_1] Time: 9/ X: -408.391205/ Y: -694.014954/ Z: 214.006699
+[2016.04.26-17.59.13:025][518]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:041][519]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:057][520]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:073][521]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:089][522]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:105][523]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:121][524]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:137][525]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:153][526]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:170][527]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:186][528]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:202][529]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:218][530]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:234][531]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:250][532]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:266][533]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:282][534]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:298][535]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:314][536]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:331][537]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:347][538]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:363][539]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:379][540]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:395][541]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:412][542]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:428][543]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:444][544]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:460][545]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:476][546]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:492][547]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:510][548]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:525][549]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:541][550]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:557][551]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:574][552]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:590][553]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:606][554]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:622][555]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:638][556]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:654][557]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:671][558]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:687][559]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:704][560]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:719][561]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:735][562]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:751][563]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:767][564]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:783][565]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:800][566]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:816][567]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:832][568]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:848][569]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:864][570]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:881][571]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:896][572]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:912][573]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:928][574]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:945][575]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:961][576]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:977][577]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.13:994][578]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:010][579]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:022][580]LogAnalytics: Creating configured Analytics provider FileLogging
+[2016.04.26-17.59.14:022][580]LogFileLoggingAnalytics:Display: Analytics event (Player Location) written with (4) attributes
+[2016.04.26-17.59.14:022][580]LogBlueprintUserMessages: [HouseLevel_C_1] Time: 10/ X: -134.008606/ Y: -810.653381/ Z: 214.006699
+[2016.04.26-17.59.14:026][580]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:041][581]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:058][582]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:074][583]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:090][584]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:106][585]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:122][586]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:138][587]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:154][588]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:171][589]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:186][590]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:202][591]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:219][592]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:235][593]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:251][594]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:267][595]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:283][596]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:299][597]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:316][598]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:331][599]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:347][600]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:364][601]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:380][602]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:380][602]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:396][603]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:412][604]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:428][605]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:444][606]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:460][607]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:477][608]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:493][609]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:509][610]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:525][611]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:542][612]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:557][613]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:573][614]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:589][615]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:605][616]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:622][617]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:638][618]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:653][619]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:670][620]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:686][621]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:702][622]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:718][623]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:734][624]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:750][625]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:766][626]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:783][627]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:799][628]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:815][629]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:831][630]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:847][631]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:863][632]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:880][633]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:896][634]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:913][635]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:929][636]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:945][637]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:961][638]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:978][639]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.14:994][640]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:010][641]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:022][642]LogAnalytics: Creating configured Analytics provider FileLogging
+[2016.04.26-17.59.15:022][642]LogFileLoggingAnalytics:Display: Analytics event (Player Location) written with (4) attributes
+[2016.04.26-17.59.15:022][642]LogBlueprintUserMessages: [HouseLevel_C_1] Time: 11/ X: 30.037903/ Y: -955.787476/ Z: 214.006699
+[2016.04.26-17.59.15:026][642]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:042][643]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:058][644]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:074][645]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:090][646]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:106][647]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:124][648]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:139][649]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:154][650]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:171][651]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:187][652]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:203][653]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:219][654]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:235][655]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:251][656]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:267][657]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:283][658]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:300][659]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:316][660]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:332][661]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:348][662]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:364][663]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:381][664]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:396][665]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:412][666]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:428][667]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:445][668]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:461][669]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:477][670]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:493][671]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:509][672]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:525][673]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:542][674]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:558][675]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:574][676]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:590][677]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:606][678]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:623][679]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:639][680]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:654][681]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:670][682]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:686][683]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:703][684]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:719][685]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:735][686]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:751][687]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:767][688]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:783][689]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:799][690]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:815][691]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:831][692]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:848][693]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:864][694]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:880][695]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:896][696]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:912][697]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:928][698]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:944][699]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:961][700]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:977][701]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.15:992][702]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:009][703]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:021][704]LogAnalytics: Creating configured Analytics provider FileLogging
+[2016.04.26-17.59.16:021][704]LogFileLoggingAnalytics:Display: Analytics event (Player Location) written with (4) attributes
+[2016.04.26-17.59.16:021][704]LogBlueprintUserMessages: [HouseLevel_C_1] Time: 12/ X: 284.596405/ Y: -648.979126/ Z: 222.12355
+[2016.04.26-17.59.16:025][704]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:041][705]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:057][706]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:073][707]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:090][708]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:106][709]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:122][710]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:138][711]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:154][712]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:170][713]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:186][714]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:202][715]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:219][716]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:234][717]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:251][718]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:267][719]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:283][720]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:299][721]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:315][722]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:332][723]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:348][724]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:364][725]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:381][726]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:381][726]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:396][727]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:413][728]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:429][729]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:445][730]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:461][731]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:477][732]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:493][733]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:510][734]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:525][735]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:542][736]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:558][737]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:574][738]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:590][739]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:606][740]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:623][741]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:638][742]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:655][743]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:671][744]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:687][745]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:704][746]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:719][747]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:735][748]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:752][749]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:767][750]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:784][751]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:800][752]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:816][753]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:832][754]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:848][755]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:864][756]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:880][757]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:896][758]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:912][759]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:929][760]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:944][761]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:961][762]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:977][763]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.16:993][764]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:009][765]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:021][766]LogAnalytics: Creating configured Analytics provider FileLogging
+[2016.04.26-17.59.17:022][766]LogFileLoggingAnalytics:Display: Analytics event (Player Location) written with (4) attributes
+[2016.04.26-17.59.17:022][766]LogBlueprintUserMessages: [HouseLevel_C_1] Time: 13/ X: 645.18158/ Y: -640.20575/ Z: 222.12355
+[2016.04.26-17.59.17:026][766]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:041][767]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:057][768]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:073][769]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:090][770]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:106][771]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:122][772]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:138][773]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:154][774]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:170][775]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:186][776]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:202][777]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:219][778]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:235][779]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:251][780]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:267][781]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:283][782]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:299][783]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:316][784]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:331][785]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:348][786]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:364][787]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:380][788]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:396][789]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:412][790]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:428][791]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:444][792]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:460][793]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:476][794]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:492][795]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:508][796]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:525][797]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:541][798]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:557][799]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:573][800]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:589][801]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:605][802]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:622][803]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:638][804]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:654][805]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:670][806]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:686][807]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:702][808]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:718][809]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:734][810]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.17:897][811]LogPackageName: SearchForPackageOnDisk took   0.149s, but failed to resolve Main.umap.
+[2016.04.26-17.59.17:901][811]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.18:041][812]LogPackageName: SearchForPackageOnDisk took   0.139s, but failed to resolve Main.umap.
+[2016.04.26-17.59.18:041][812]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2016.04.26-17.59.18:041][812]LogNet:Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2016.04.26-17.59.18:041][812]LogNet: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap'
+[2016.04.26-17.59.18:041][812]LogNet:Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2016.04.26-17.59.18:041][812]LogNet: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap'
+[2016.04.26-17.59.18:046][812]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-17.59.18:046][813]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?closed
+[2016.04.26-17.59.18:046][813]LogNet: Failed; returning to Entry
+[2016.04.26-17.59.18:101][813]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?closed
+[2016.04.26-17.59.18:238][813]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000505B7780E0
+[2016.04.26-17.59.18:392][813]LogMemory: Platform Memory Stats for Windows
+[2016.04.26-17.59.18:392][813]LogMemory: Process Physical Memory: 543.74 MB used, 558.16 MB peak
+[2016.04.26-17.59.18:392][813]LogMemory: Process Virtual Memory: 493.53 MB used, 508.45 MB peak
+[2016.04.26-17.59.18:392][813]LogMemory: Physical Memory: 5888.89 MB used, 16273.04 MB total
+[2016.04.26-17.59.18:392][813]LogMemory: Virtual Memory: 1056.57 MB used, 134217728.00 MB total
+[2016.04.26-17.59.18:392][813]LogMemory: 
+[2016.04.26-17.59.18:392][813]Allocator Stats for TBB: (not implemented)
+[2016.04.26-17.59.19:004][813]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.04.26-17.59.20:157][813]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.26-17.59.20:167][813]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.04.26-13.59.20
+[2016.04.26-17.59.20:167][813]LogWorld: Bringing up level for play took: 0.005149
+[2016.04.26-17.59.27:177][232]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.26-17.59.27:187][232]LogEngine: All Windows Closed
+[2016.04.26-17.59.27:187][232]LogWindows: FPlatformMisc::RequestExit(0)
+[2016.04.26-17.59.27:887][233]LogExit: Preparing to exit.
+[2016.04.26-17.59.27:945][233]LogExit: Game engine shut down
+[2016.04.26-17.59.27:951][233]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000050586240E0
+[2016.04.26-17.59.28:400][233]LogExit: Object subsystem successfully closed.
+[2016.04.26-17.59.28:422][233]LogD3D11RHI: Shutdown
+[2016.04.26-17.59.28:422][233]LogD3D11RHI: CleanupD3DDevice
+[2016.04.26-17.59.28:629][233]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.26-17.59.28:653][233]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (120)
+[2016.04.26-17.59.28:982][233]LogModuleManager: Shutting down and abandoning module AutomationController (119)
+[2016.04.26-17.59.28:982][233]LogModuleManager: Shutting down and abandoning module AutomationWorker (118)
+[2016.04.26-17.59.28:982][233]LogModuleManager: Shutting down and abandoning module CharacterAI (117)
+[2016.04.26-17.59.28:982][233]LogModuleManager: Shutting down and abandoning module Analytics (116)
+[2016.04.26-17.59.28:982][233]LogModuleManager: Shutting down and abandoning module AITestSuite (115)
+[2016.04.26-17.59.28:982][233]LogModuleManager: Shutting down and abandoning module GameplayDebugger (114)
+[2016.04.26-17.59.28:982][233]LogModuleManager: Shutting down and abandoning module AIModule (113)
+[2016.04.26-17.59.28:982][233]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (112)
+[2016.04.26-17.59.28:982][233]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (111)
+[2016.04.26-17.59.28:982][233]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (110)
+[2016.04.26-17.59.28:982][233]LogModuleManager: Shutting down and abandoning module ProfilerService (109)
+[2016.04.26-17.59.29:198][233]LogModuleManager: Shutting down and abandoning module TaskGraph (108)
+[2016.04.26-17.59.29:198][233]LogModuleManager: Shutting down and abandoning module SlateRemote (107)
+[2016.04.26-17.59.29:199][233]LogModuleManager: Shutting down and abandoning module SteamVRController (106)
+[2016.04.26-17.59.29:199][233]LogModuleManager: Shutting down and abandoning module SteamVR (105)
+[2016.04.26-17.59.29:199][233]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (104)
+[2016.04.26-17.59.29:199][233]LogModuleManager: Shutting down and abandoning module OculusLibrary (103)
+[2016.04.26-17.59.29:199][233]LogModuleManager: Shutting down and abandoning module OculusInput (102)
+[2016.04.26-17.59.29:199][233]LogModuleManager: Shutting down and abandoning module LeapMotionController (101)
+[2016.04.26-17.59.29:231][233]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (100)
+[2016.04.26-17.59.29:231][233]LogModuleManager: Shutting down and abandoning module CableComponent (99)
+[2016.04.26-17.59.29:231][233]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (98)
+[2016.04.26-17.59.29:231][233]LogModuleManager: Shutting down and abandoning module HTML5Networking (97)
+[2016.04.26-17.59.29:231][233]LogModuleManager: Shutting down and abandoning module DesktopPlatform (96)
+[2016.04.26-17.59.29:231][233]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (95)
+[2016.04.26-17.59.29:232][233]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.04.26-17.59.29:232][233]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (93)
+[2016.04.26-17.59.29:232][233]LogModuleManager: Shutting down and abandoning module UObjectPlugin (92)
+[2016.04.26-17.59.29:232][233]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (91)
+[2016.04.26-17.59.29:232][233]LogModuleManager: Shutting down and abandoning module SourceControl (90)
+[2016.04.26-17.59.29:232][233]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (89)
+[2016.04.26-17.59.29:232][233]LogModuleManager: Shutting down and abandoning module FileLogging (88)
+[2016.04.26-17.59.29:238][233]LogFileLoggingAnalytics:Display: Session ended for user (f7fd99f1d803ebbcafe1a7209dc22344) and session id (f7fd99f1d803ebbcafe1a7209dc22344-2016.04.26-13.59.03)
+[2016.04.26-17.59.29:238][233]LogModuleManager: Shutting down and abandoning module AnalyticsBlueprintLibrary (87)
+[2016.04.26-17.59.29:238][233]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.04.26-17.59.29:238][233]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.04.26-17.59.29:238][233]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.04.26-17.59.29:238][233]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.04.26-17.59.29:246][233]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.04.26-17.59.29:246][233]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.04.26-17.59.29:246][233]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.04.26-17.59.29:246][233]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.04.26-17.59.29:246][233]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.04.26-17.59.29:246][233]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.04.26-17.59.29:247][233]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.04.26-17.59.29:247][233]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.04.26-17.59.29:247][233]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.04.26-17.59.29:247][233]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.04.26-17.59.29:247][233]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.04.26-17.59.29:247][233]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.04.26-17.59.29:247][233]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.04.26-17.59.29:247][233]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.04.26-17.59.29:247][233]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.04.26-17.59.29:247][233]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.04.26-17.59.29:251][233]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.04.26-17.59.29:251][233]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.04.26-17.59.29:252][233]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.04.26-17.59.29:252][233]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.04.26-17.59.29:252][233]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.04.26-17.59.29:252][233]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.04.26-17.59.29:252][233]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.04.26-17.59.29:252][233]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.04.26-17.59.29:252][233]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.04.26-17.59.29:252][233]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.04.26-17.59.29:368][233]LogDerivedDataCache: Shutdown
+[2016.04.26-17.59.29:368][233]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.04.26-17.59.29:368][233]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.04.26-17.59.29:368][233]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.04.26-17.59.29:368][233]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.04.26-17.59.29:368][233]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.04.26-17.59.29:368][233]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.04.26-17.59.29:368][233]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.04.26-17.59.29:368][233]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.04.26-17.59.29:368][233]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.04.26-17.59.29:368][233]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.04.26-17.59.29:368][233]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.04.26-17.59.29:368][233]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.04.26-17.59.29:368][233]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.04.26-17.59.29:368][233]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.04.26-17.59.29:368][233]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.04.26-17.59.29:368][233]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.04.26-17.59.29:368][233]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.26-17.59.29:368][233]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.26-17.59.29:368][233]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.26-17.59.29:368][233]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.26-17.59.29:368][233]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.26-17.59.29:368][233]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.26-17.59.29:369][233]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.26-17.59.29:369][233]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.26-17.59.29:369][233]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.26-17.59.29:369][233]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.26-17.59.29:369][233]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.26-17.59.29:369][233]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.26-17.59.29:369][233]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.26-17.59.29:369][233]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.26-17.59.29:369][233]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.26-17.59.29:369][233]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.26-17.59.29:369][233]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.26-17.59.29:369][233]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.26-17.59.29:369][233]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.26-17.59.29:369][233]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.26-17.59.29:369][233]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.26-17.59.29:369][233]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.26-17.59.29:369][233]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.26-17.59.29:369][233]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.26-17.59.29:369][233]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.26-17.59.29:369][233]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.26-17.59.29:369][233]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.26-17.59.29:369][233]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.26-17.59.29:370][233]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.26-17.59.29:370][233]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.26-17.59.29:370][233]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.26-17.59.29:370][233]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.26-17.59.29:370][233]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.26-17.59.29:370][233]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.26-17.59.29:370][233]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.26-17.59.29:370][233]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.26-17.59.29:370][233]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.26-17.59.29:370][233]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.26-17.59.29:373][233]LogExit: Exiting.
+[2016.04.26-17.59.29:377][233]Log file closed, 04/26/16 13:59:29

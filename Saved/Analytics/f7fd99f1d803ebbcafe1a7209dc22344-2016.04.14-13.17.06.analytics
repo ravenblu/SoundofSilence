@@ -1,0 +1,155 @@
+{
+	"sessionId" : "f7fd99f1d803ebbcafe1a7209dc22344-2016.04.14-13.17.06",
+	"userId" : "f7fd99f1d803ebbcafe1a7209dc22344",
+	"events" : [
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "101.228302"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-1118.755249"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "632.128357"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "1"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "107.241798"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-1104.018188"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "632.128357"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "2"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "271.719269"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-754.702209"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "632.056152"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "3"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "347.229279"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-754.536011"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "632.056152"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "4"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "311.94458"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-825.775635"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "632.056152"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "5"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "174.967804"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-918.538025"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "627.247498"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "6"
+			}
+			]
+		}
+	]
+}

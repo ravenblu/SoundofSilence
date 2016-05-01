@@ -1,0 +1,483 @@
+﻿[2016.04.26-23.08.21:052][  0]Log file open, 04/26/16 19:08:21
+[2016.04.26-23.08.21:052][  0]LogInit:Display: Running engine for game: SoundofSilence
+[2016.04.26-23.08.21:052][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.26-23.08.21:052][  0]LogInit:Display: RandInit(2141611587) SRandInit(2141611588).
+[2016.04.26-23.08.21:052][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.26-23.08.21:052][  0]LogStats: Stats thread started at 0.067266
+[2016.04.26-23.08.21:052][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.26-23.08.21:052][  0]LogInit: API Version: 2758231
+[2016.04.26-23.08.21:052][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.26-23.08.21:052][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.26-23.08.21:052][  0]LogInit: Build Configuration: Development
+[2016.04.26-23.08.21:052][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.26-23.08.21:052][  0]LogInit: Command line:  
+[2016.04.26-23.08.21:052][  0]LogInit: Base directory: D:/Unreal4/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.26-23.08.21:052][  0]LogInit: Rocket: 1
+[2016.04.26-23.08.21:056][  0]LogInit: Using libcurl 7.41.0
+[2016.04.26-23.08.21:056][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.26-23.08.21:056][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.26-23.08.21:056][  0]LogInit:  - other features:
+[2016.04.26-23.08.21:056][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.26-23.08.21:056][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.26-23.08.21:056][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.26-23.08.21:056][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.26-23.08.21:056][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.26-23.08.21:057][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.26-23.08.21:057][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.26-23.08.21:057][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.26-23.08.21:057][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.26-23.08.21:057][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.26-23.08.21:061][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.26-23.08.21:066][  0]LogInit: Object subsystem initialized
+[2016.04.26-23.08.21:067][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.26-23.08.21:067][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.26-23.08.21:074][  0]LogInit: Computer: INDIEGO
+[2016.04.26-23.08.21:074][  0]LogInit: User: Indie
+[2016.04.26-23.08.21:074][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.26-23.08.21:074][  0]LogInit: High frequency timer resolution =2.533210 MHz
+[2016.04.26-23.08.21:074][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.04.26-23.08.21:074][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.26-23.08.21:074][  0]LogMemory: Process Physical Memory: 56.36 MB used, 56.36 MB peak
+[2016.04.26-23.08.21:074][  0]LogMemory: Process Virtual Memory: 56.64 MB used, 56.64 MB peak
+[2016.04.26-23.08.21:074][  0]LogMemory: Physical Memory: 3874.10 MB used, 16273.04 MB total
+[2016.04.26-23.08.21:074][  0]LogMemory: Virtual Memory: 364.59 MB used, 134217728.00 MB total
+[2016.04.26-23.08.21:103][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.26-23.08.21:474][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960M    (Feature Level 11_0)
+[2016.04.26-23.08.21:474][  0]LogD3D11RHI: Adapter has 1972MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2016.04.26-23.08.21:479][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.04.26-23.08.21:479][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2016.04.26-23.08.21:480][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.26-23.08.21:480][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.04.26-23.08.21:480][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.26-23.08.21:483][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.26-23.08.21:483][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.26-23.08.21:491][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.26-23.08.21:507][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Intermediate/Shaders/WorkingDirectory/4192/).
+[2016.04.26-23.08.21:507][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Indie/AppData/Local/Temp/UnrealShaderWorkingDir/99DAD53D4DBD0E804A47958C17FB5006/'.
+[2016.04.26-23.08.21:507][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.26-23.08.22:143][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.26-23.08.22:146][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.26-23.08.22:149][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.26-23.08.22:153][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.26-23.08.22:156][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.26-23.08.22:158][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.26-23.08.22:160][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.26-23.08.22:164][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.26-23.08.22:166][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.26-23.08.22:168][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.26-23.08.22:170][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.26-23.08.22:175][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.26-23.08.22:175][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.26-23.08.22:175][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.26-23.08.22:190][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.26-23.08.22:193][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.26-23.08.22:195][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.26-23.08.22:198][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.26-23.08.22:198][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.26-23.08.22:245][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.26-23.08.22:287][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Indie/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.26-23.08.22:287][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Indie/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.26-23.08.22:287][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.26-23.08.22:287][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.26-23.08.22:287][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.26-23.08.22:287][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.26-23.08.22:339][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.26-23.08.22:351][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Indie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.26-23.08.22:488][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.26-23.08.22:489][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.26-23.08.22:577][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.26-23.08.22:577][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.26-23.08.22:802][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.26-23.08.23:374][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.26-23.08.23:473][  0]LogAssetRegistry: FAssetRegistry took 0.0114 seconds to start up
+[2016.04.26-23.08.23:580][  0]SourceControl: Info Source control is disabled
+[2016.04.26-23.08.23:580][  0]SourceControl: Info Source control is disabled
+[2016.04.26-23.08.23:586][  0]SourceControl: Info Source control is disabled
+[2016.04.26-23.08.23:591][  0]SourceControl: Info Source control is disabled
+[2016.04.26-23.08.23:716][  0]LogObj: 28733 objects as part of root set at end of initial load.
+[2016.04.26-23.08.23:716][  0]LogUObjectAllocator: 6116368 out of 0 bytes used by permanent object pool.
+[2016.04.26-23.08.23:762][  0]LogEngine: Initializing Engine...
+[2016.04.26-23.08.23:764][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.26-23.08.23:764][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.26-23.08.23:853][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.26-23.08.23:856][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.26-23.08.23:963][  0]LogInit: FAudioDevice initialized.
+[2016.04.26-23.08.23:982][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Indie/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.26-23.08.23:985][  0]LogInit: Texture streaming: Enabled
+[2016.04.26-23.08.23:988][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.26-23.08.23:988][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.26-23.08.23:988][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId aa3aaced42c420e0865af180590ebbda|502f612a496140c9a86c317a2c9fefde|df1942a8-a007-448d-b9e2-a99e192b85de
+[2016.04.26-23.08.23:988][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.26-23.08.23:994][  0]LogInit: Transaction tracking system initialized
+[2016.04.26-23.08.24:008][  0]BlueprintLog: New page: Editor Load
+[2016.04.26-23.08.24:050][  0]LocalizationService: Info Localization service is disabled
+[2016.04.26-23.08.24:222][  0]LogConsoleResponse:Display: 
+[2016.04.26-23.08.24:306][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.26-23.08.24:337][  0]LogFileCache: Scanning file cache for directory 'D:/Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/' took 0.01s
+[2016.04.26-23.08.24:337][  0]SourceControl: Info Source control is disabled
+[2016.04.26-23.08.24:337][  0]Cmd: MAP LOAD FILE="../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.26-23.08.24:337][  0]LightingResults: New page: Lighting Build
+[2016.04.26-23.08.24:339][  0]MapCheck: New page: Map Check
+[2016.04.26-23.08.24:339][  0]LightingResults: New page: Lighting Build
+[2016.04.26-23.08.24:348][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000097069EAC0
+[2016.04.26-23.08.25:005][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.04.26-23.08.25:021][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.26-23.08.25:022][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.26-23.08.25:141][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 118.118ms to complete.
+[2016.04.26-23.08.25:141][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.804
+[2016.04.26-23.08.25:357][  0]LogCollectionManager: Loaded 0 collections in 0.003871 seconds
+[2016.04.26-23.08.25:407][  0]LogFileCache: Scanning file cache for directory 'D:/Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/Collections/' took 0.01s
+[2016.04.26-23.08.25:407][  0]LogFileCache: Scanning file cache for directory 'D:/Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Developers/Indie/Collections/' took 0.01s
+[2016.04.26-23.08.25:407][  0]LogFileCache: Scanning file cache for directory 'D:/Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Collections/' took 0.01s
+[2016.04.26-23.08.25:407][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2016.04.26-23.08.25:430][  0]LogContentBrowser: Native class hierarchy populated in 0.0224 seconds. Added 1894 classes and 341 folders.
+[2016.04.26-23.08.25:444][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2016.04.26-23.08.25:559][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2016.04.26-23.08.25:686][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2016.04.26-23.08.25:699][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.26-23.08.25:712][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.26-23.08.25:738][  0]LogLoad: Full Startup: 5.05 seconds (BP compile: 0.13 seconds)
+[2016.04.26-23.08.25:757][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.26-23.08.25:766][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.26-23.08.25:855][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.04.26-23.08.26:259][  0]LogRenderer: Reallocating scene render targets to support 880x708 (Frame:2).
+[2016.04.26-23.08.27:567][  8]LogAssetRegistry: Asset discovery search completed in 4.1055 seconds
+[2016.04.26-23.08.27:567][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.04.26-23.08.27:567][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
+[2016.04.26-23.08.46:741][755]LogAIModule: Creating AISystem for world HouseLevel
+[2016.04.26-23.08.46:745][755]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Explosion.P_Explosion Component=/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.vase_Blueprint_C_0.Explosion
+[2016.04.26-23.08.46:771][755]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Explosion.P_Explosion Component=/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.vase_Blueprint_C_0.Explosion
+[2016.04.26-23.08.46:772][755]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Explosion.P_Explosion Component=/Game/Levels/HouseLevel.HouseLevel:PersistentLevel.vase_Blueprint_C_0.Explosion
+[2016.04.26-23.08.46:998][755]Cmd: MAP LOAD FILE="../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Levels/HouseLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.26-23.08.47:000][755]LightingResults: New page: Lighting Build
+[2016.04.26-23.08.47:064][755]LoadErrors: New page: Loading map: HouseLevel.umap
+[2016.04.26-23.08.47:066][755]MapCheck: New page: Map Check
+[2016.04.26-23.08.47:066][755]LightingResults: New page: Lighting Build
+[2016.04.26-23.08.47:104][755]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009600CCFE0
+[2016.04.26-23.08.47:116][755]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[54] invalid
+[2016.04.26-23.08.47:116][755]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[77] invalid
+[2016.04.26-23.08.47:116][755]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[100] invalid
+[2016.04.26-23.08.47:116][755]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[101] invalid
+[2016.04.26-23.08.47:116][755]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[102] invalid
+[2016.04.26-23.08.47:116][755]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[103] invalid
+[2016.04.26-23.08.47:116][755]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[104] invalid
+[2016.04.26-23.08.47:353][755]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.26-23.08.47:634][755]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.26-23.08.47:840][755]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 205.111ms to complete.
+[2016.04.26-23.08.47:842][755]LogFileHelpers: Loading map 'HouseLevel' took 0.847
+[2016.04.26-23.08.47:857][755]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : Failed import for ObjectProperty /Game/NPCDialogueSystem/Blueprints/WB_DialogueText.WB_DialogueText_C:Dialogue
+[2016.04.26-23.08.47:857][755]LoadErrors:Error: Error /Game/Assets/BP_NPC : Failed import for ObjectProperty /Game/NPCDialogueSystem/Blueprints/WB_DialogueText.WB_DialogueText_C:Dialogue
+[2016.04.26-23.08.47:857][755]LoadErrors:Error: Error /Game/City_Blueprints/BaseUI : Failed import for IntProperty /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:health
+[2016.04.26-23.08.47:857][755]LoadErrors:Error: Error /Game/City_Blueprints/BaseUI : Failed import for IntProperty /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:maxHealth
+[2016.04.26-23.08.47:931][756]Cmd: UpdateLandscapeEditorData -warnings
+[2016.04.26-23.08.47:936][756]Cmd: UpdateLandscapeEditorData
+[2016.04.26-23.08.53:787][ 90]LogAIModule: Creating AISystem for world Main
+[2016.04.26-23.08.53:844][ 90]Cmd: MAP LOAD FILE="../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.26-23.08.53:844][ 90]LightingResults: New page: Lighting Build
+[2016.04.26-23.08.53:904][ 90]LoadErrors: New page: Loading map: Main.umap
+[2016.04.26-23.08.53:911][ 90]MapCheck: New page: Map Check
+[2016.04.26-23.08.53:911][ 90]LightingResults: New page: Lighting Build
+[2016.04.26-23.08.53:955][ 90]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009600CF560
+[2016.04.26-23.08.54:097][ 90]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.26-23.08.54:316][ 90]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.26-23.08.54:530][ 90]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 213.306ms to complete.
+[2016.04.26-23.08.54:534][ 90]LogFileHelpers: Loading map 'Main' took 0.694
+[2016.04.26-23.08.54:596][ 91]Cmd: UpdateLandscapeEditorData
+[2016.04.26-23.08.58:900][301]LogSavePackage: Save=156.667236ms
+[2016.04.26-23.08.58:900][301]LogSavePackage: Moving '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/UEDPCMainFAAA8FD64437AA2BC904C2AC9E8A4B38.tmp' to '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/Autosaves/Game/Levels/UEDPCMain.umap'
+[2016.04.26-23.08.58:902][301]LogSavePackage: Total save time: 179.821651ms
+[2016.04.26-23.08.58:902][301]LogSavePackage:Display: Finished SavePackage ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/Autosaves/Game/Levels/UEDPCMain.umap
+[2016.04.26-23.18.54:945][375]LogSavePackage: Save=195.180420ms
+[2016.04.26-23.18.54:945][375]LogSavePackage: Moving '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/Main_Auto12FC96EA443DFDCF44589818B3B880B7D.tmp' to '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/Autosaves/Game/Levels/Main_Auto1.umap'
+[2016.04.26-23.18.54:947][375]LogSavePackage: Total save time: 216.042098ms
+[2016.04.26-23.18.54:947][375]LogSavePackage:Display: Finished SavePackage ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/Autosaves/Game/Levels/Main_Auto1.umap
+[2016.04.26-23.18.54:952][375]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Main' took 0.296
+[2016.04.26-23.18.54:952][375]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.296
+[2016.04.26-23.23.28:585][250]LogEditorViewport: Clicking Background
+[2016.04.26-23.23.49:090][223]LoadErrors: Info The Skeleton  UE4_Mannequin_Skeleton is missing bones that SkeletalMesh  SK_Mannequin needs. They will be added now. Please save the Skeleton!
+[2016.04.26-23.23.49:173][224]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2016.04.26-23.23.49:303][225]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.26-23.23.49:386][227]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2016.04.26-23.23.49:459][228]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2016.04.26-23.23.50:268][242]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.26-23.23.52:423][242]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0025 seconds. Added 107 classes and 0 folders.
+[2016.04.26-23.24.23:919][458]LogRenderer: Reallocating scene render targets to support 912x708 (Frame:6130).
+[2016.04.26-23.24.37:469][197]LogEditorViewport: Clicking Background
+[2016.04.26-23.25.40:419][414]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.04.26-23.25.41:323][456]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.04.26-23.25.55:249][213]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.04.26-23.25.55:906][213]LogActorComponent: UnregisterComponent: (/Engine/Transient.PathFollowingComponent) Not registered. Aborting.
+[2016.04.26-23.25.55:906][213]LogActorComponent: UnregisterComponent: (/Engine/Transient.ActionsComp) Not registered. Aborting.
+[2016.04.26-23.25.55:906][213]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.26-23.25.56:058][213]BlueprintEditorCompileResults: Info [1055.37] Compile of ThirdPersonCharacter successful! [in 808 ms]
+[2016.04.26-23.25.58:070][242]LogSavePackage: Save=1148.050537ms
+[2016.04.26-23.25.58:070][242]LogSavePackage: Moving '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/ThirdPersonCharacterCAF1D44F48B66DDC0834BF8C8B1CD9EC.tmp' to '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.04.26-23.25.58:071][242]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset', retrying in .5s...
+[2016.04.26-23.25.58:572][242]LogFileManager:Error: Error deleting file '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'.
+[2016.04.26-23.25.58:572][242]LogSavePackage:Error: Error saving '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.04.26-23.25.58:581][242]LogSavePackage: Total save time: 1679.606114ms
+[2016.04.26-23.25.58:581][242]LogSavePackage:Display: Finished SavePackage ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.04.26-23.26.01:124][242]LogSavePackage: Save=1109.552368ms
+[2016.04.26-23.26.01:124][242]LogSavePackage: Moving '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/ThirdPersonCharacter5A55F32F408D41DBB2A1C98CFA05EEDD.tmp' to '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.04.26-23.26.01:125][242]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset', retrying in .5s...
+[2016.04.26-23.26.01:626][242]LogFileManager:Error: Error deleting file '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'.
+[2016.04.26-23.26.01:626][242]LogSavePackage:Error: Error saving '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.04.26-23.26.01:629][242]LogSavePackage: Total save time: 1624.075383ms
+[2016.04.26-23.26.01:629][242]LogSavePackage:Display: Finished SavePackage ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.04.26-23.26.18:772][242]LogSavePackage: Save=1055.016724ms
+[2016.04.26-23.26.18:772][242]LogSavePackage: Moving '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/ThirdPersonCharacter5CD82F064215A2FDD3CE1EBEC38214B7.tmp' to '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.04.26-23.26.18:777][242]LogSavePackage: Total save time: 1068.958752ms
+[2016.04.26-23.26.18:777][242]LogSavePackage:Display: Finished SavePackage ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.04.26-23.26.18:785][242]EditorErrors: New page: Save Output
+[2016.04.26-23.26.18:785][242]EditorErrors:Warning: Warning Error saving '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.04.26-23.26.18:785][242]EditorErrors:Warning: Warning Error saving '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.04.26-23.26.24:797][564]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.26-23.26.25:479][564]LogSavePackage: Save=204.109406ms
+[2016.04.26-23.26.25:479][564]LogSavePackage: Moving '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/Main3D038A23488F4B36E01071AEB1FB229F.tmp' to '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Levels/Main.umap'
+[2016.04.26-23.26.25:484][564]LogSavePackage: Total save time: 224.378157ms
+[2016.04.26-23.26.25:484][564]LogSavePackage:Display: Finished SavePackage ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Levels/Main.umap
+[2016.04.26-23.26.25:707][564]LogFileHelpers: Saving map 'Main' took 0.775
+[2016.04.26-23.26.27:816][663]LogActorComponent: UnregisterComponent: (/Engine/Transient.PathFollowingComponent) Not registered. Aborting.
+[2016.04.26-23.26.27:816][663]LogActorComponent: UnregisterComponent: (/Engine/Transient.ActionsComp) Not registered. Aborting.
+[2016.04.26-23.26.28:234][663]LogSavePackage: Save=200.589371ms
+[2016.04.26-23.26.28:235][663]LogSavePackage: Moving '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/UEDPCMainDCA1DECC46593DE93027F2B06E4D37D2.tmp' to '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/Autosaves/Game/Levels/UEDPCMain.umap'
+[2016.04.26-23.26.28:236][663]LogSavePackage: Total save time: 211.152650ms
+[2016.04.26-23.26.28:236][663]LogSavePackage:Display: Finished SavePackage ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/Autosaves/Game/Levels/UEDPCMain.umap
+[2016.04.26-23.36.25:910][585]LogSavePackage: Save=223.252716ms
+[2016.04.26-23.36.25:910][585]LogSavePackage: Moving '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/Main_Auto23DBE0EF6442D3451C7E8CA8377417666.tmp' to '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/Autosaves/Game/Levels/Main_Auto2.umap'
+[2016.04.26-23.36.25:912][585]LogSavePackage: Total save time: 244.155046ms
+[2016.04.26-23.36.25:912][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/Autosaves/Game/Levels/Main_Auto2.umap
+[2016.04.26-23.36.25:917][585]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Main' took 0.364
+[2016.04.26-23.36.25:917][585]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.364
+[2016.04.27-03.24.12:573][621]LogHttp:Warning: Timeout processing Http request. 000000090A172700
+[2016.04.27-03.25.09:962][841]LogSavePackage: Save=77.398636ms
+[2016.04.27-03.25.09:963][841]LogSavePackage: Moving '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/MainEF4F3DC741270A2A67E5A3AC4579FA08.tmp' to '../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Levels/Main.umap'
+[2016.04.27-03.25.09:964][841]LogSavePackage: Total save time: 85.010715ms
+[2016.04.27-03.25.09:964][841]LogSavePackage:Display: Finished SavePackage ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Levels/Main.umap
+[2016.04.27-03.25.10:040][841]LogFileHelpers: Saving map 'Main' took 0.296
+[2016.04.27-03.25.10:345][841]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.27-03.25.10:596][842]Cmd: QUIT_EDITOR
+[2016.04.27-03.25.10:811][842]LogExit: Preparing to exit.
+[2016.04.27-03.25.11:871][842]LogExit: Editor shut down
+[2016.04.27-03.25.11:872][842]LogExit: Transaction tracking system shut down
+[2016.04.27-03.25.11:876][842]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000097DFA1580
+[2016.04.27-03.25.11:877][842]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000096F26BA60
+[2016.04.27-03.25.11:878][842]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009788025C0
+[2016.04.27-03.25.11:878][842]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000096EE92520
+[2016.04.27-03.25.11:890][842]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000097EB37600
+[2016.04.27-03.25.11:892][842]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000090120D440
+[2016.04.27-03.25.11:894][842]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000979A10400
+[2016.04.27-03.25.11:896][842]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000979A134C0
+[2016.04.27-03.25.11:896][842]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000979A11440
+[2016.04.27-03.25.11:896][842]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009777BA200
+[2016.04.27-03.25.11:896][842]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000097DFA1BC0
+[2016.04.27-03.25.12:186][842]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000097E227BA0
+[2016.04.27-03.25.12:186][842]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000097E227600
+[2016.04.27-03.25.12:186][842]LogExit: Object subsystem successfully closed.
+[2016.04.27-03.25.12:211][842]LogD3D11RHI: Shutdown
+[2016.04.27-03.25.12:211][842]LogD3D11RHI: CleanupD3DDevice
+[2016.04.27-03.25.12:320][842]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.27-03.25.12:343][842]LogModuleManager: Shutting down and abandoning module SequencerWidgets (203)
+[2016.04.27-03.25.12:343][842]LogModuleManager: Shutting down and abandoning module BlueprintGraph (202)
+[2016.04.27-03.25.12:343][842]LogModuleManager: Shutting down and abandoning module CookingStats (201)
+[2016.04.27-03.25.12:343][842]LogModuleManager: Shutting down and abandoning module CrashTracker (200)
+[2016.04.27-03.25.12:343][842]LogModuleManager: Shutting down and abandoning module SceneOutliner (199)
+[2016.04.27-03.25.12:343][842]LogModuleManager: Shutting down and abandoning module SuperSearch (198)
+[2016.04.27-03.25.12:343][842]LogModuleManager: Shutting down and abandoning module WidgetCarousel (197)
+[2016.04.27-03.25.12:343][842]LogModuleManager: Shutting down and abandoning module AddContentDialog (196)
+[2016.04.27-03.25.12:349][842]LogModuleManager: Shutting down and abandoning module EditorWidgets (195)
+[2016.04.27-03.25.12:349][842]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2016.04.27-03.25.12:349][842]LogModuleManager: Shutting down and abandoning module StatsViewer (193)
+[2016.04.27-03.25.12:349][842]LogModuleManager: Shutting down and abandoning module FoliageEdit (192)
+[2016.04.27-03.25.12:349][842]LogModuleManager: Shutting down and abandoning module LandscapeEditor (191)
+[2016.04.27-03.25.12:349][842]LogModuleManager: Shutting down and abandoning module ActorPickerMode (190)
+[2016.04.27-03.25.12:349][842]LogModuleManager: Shutting down and abandoning module GeometryMode (189)
+[2016.04.27-03.25.12:349][842]LogModuleManager: Shutting down and abandoning module TextureAlignMode (188)
+[2016.04.27-03.25.12:349][842]LogModuleManager: Shutting down and abandoning module BspMode (187)
+[2016.04.27-03.25.12:349][842]LogModuleManager: Shutting down and abandoning module PlacementMode (186)
+[2016.04.27-03.25.12:349][842]LogModuleManager: Shutting down and abandoning module AutomationWorker (185)
+[2016.04.27-03.25.12:350][842]LogModuleManager: Shutting down and abandoning module CharacterAI (184)
+[2016.04.27-03.25.12:350][842]LogModuleManager: Shutting down and abandoning module SmartSnapping (183)
+[2016.04.27-03.25.12:350][842]LogModuleManager: Shutting down and abandoning module ViewportSnapping (182)
+[2016.04.27-03.25.12:350][842]LogModuleManager: Shutting down and abandoning module LogVisualizer (181)
+[2016.04.27-03.25.12:350][842]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (180)
+[2016.04.27-03.25.12:350][842]LogModuleManager: Shutting down and abandoning module IntroTutorials (179)
+[2016.04.27-03.25.12:350][842]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (178)
+[2016.04.27-03.25.12:350][842]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (177)
+[2016.04.27-03.25.12:350][842]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (176)
+[2016.04.27-03.25.12:350][842]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (175)
+[2016.04.27-03.25.12:987][842]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (174)
+[2016.04.27-03.25.12:987][842]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (173)
+[2016.04.27-03.25.12:987][842]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (172)
+[2016.04.27-03.25.12:987][842]LogModuleManager: Shutting down and abandoning module MergeActors (171)
+[2016.04.27-03.25.12:987][842]LogModuleManager: Shutting down and abandoning module SizeMap (170)
+[2016.04.27-03.25.12:987][842]LogModuleManager: Shutting down and abandoning module TreeMap (169)
+[2016.04.27-03.25.12:987][842]LogModuleManager: Shutting down and abandoning module ReferenceViewer (168)
+[2016.04.27-03.25.12:987][842]LogModuleManager: Shutting down and abandoning module LocalizationService (167)
+[2016.04.27-03.25.12:987][842]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (166)
+[2016.04.27-03.25.12:987][842]LogModuleManager: Shutting down and abandoning module HardwareTargeting (165)
+[2016.04.27-03.25.12:987][842]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (164)
+[2016.04.27-03.25.12:987][842]LogModuleManager: Shutting down and abandoning module UndoHistory (163)
+[2016.04.27-03.25.12:987][842]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (162)
+[2016.04.27-03.25.12:987][842]LogModuleManager: Shutting down and abandoning module UserFeedback (161)
+[2016.04.27-03.25.12:987][842]LogModuleManager: Shutting down and abandoning module XmlParser (160)
+[2016.04.27-03.25.12:987][842]LogModuleManager: Shutting down and abandoning module Blutility (159)
+[2016.04.27-03.25.12:987][842]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (158)
+[2016.04.27-03.25.12:988][842]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (157)
+[2016.04.27-03.25.12:988][842]LogModuleManager: Shutting down and abandoning module InputBindingEditor (156)
+[2016.04.27-03.25.12:988][842]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (155)
+[2016.04.27-03.25.12:988][842]LogModuleManager: Shutting down and abandoning module SettingsEditor (154)
+[2016.04.27-03.25.12:988][842]LogModuleManager: Shutting down and abandoning module ProjectLauncher (153)
+[2016.04.27-03.25.12:988][842]LogModuleManager: Shutting down and abandoning module SessionFrontend (152)
+[2016.04.27-03.25.12:988][842]LogModuleManager: Shutting down and abandoning module ProfilerClient (151)
+[2016.04.27-03.25.12:988][842]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (150)
+[2016.04.27-03.25.12:988][842]LogModuleManager: Shutting down and abandoning module DeviceManager (149)
+[2016.04.27-03.25.12:988][842]LogModuleManager: Shutting down and abandoning module AutomationController (148)
+[2016.04.27-03.25.12:988][842]LogModuleManager: Shutting down and abandoning module AutomationWindow (147)
+[2016.04.27-03.25.12:988][842]LogModuleManager: Shutting down and abandoning module Layers (146)
+[2016.04.27-03.25.12:988][842]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (145)
+[2016.04.27-03.25.12:988][842]LogModuleManager: Shutting down and abandoning module DetailCustomizations (144)
+[2016.04.27-03.25.12:989][842]LogModuleManager: Shutting down and abandoning module PackagesDialog (143)
+[2016.04.27-03.25.12:989][842]LogModuleManager: Shutting down and abandoning module Persona (142)
+[2016.04.27-03.25.12:989][842]LogModuleManager: Shutting down and abandoning module Kismet (141)
+[2016.04.27-03.25.12:989][842]LogModuleManager: Shutting down and abandoning module GraphEditor (140)
+[2016.04.27-03.25.12:989][842]LogModuleManager: Shutting down and abandoning module ClassViewer (139)
+[2016.04.27-03.25.12:991][842]LogModuleManager: Shutting down and abandoning module Toolbox (138)
+[2016.04.27-03.25.12:991][842]LogModuleManager: Shutting down and abandoning module ModuleUI (137)
+[2016.04.27-03.25.12:991][842]LogModuleManager: Shutting down and abandoning module MovieSceneTools (136)
+[2016.04.27-03.25.12:991][842]LogModuleManager: Shutting down and abandoning module OutputLog (135)
+[2016.04.27-03.25.12:992][842]LogModuleManager: Shutting down and abandoning module GammaUI (134)
+[2016.04.27-03.25.12:992][842]LogModuleManager: Shutting down and abandoning module Documentation (133)
+[2016.04.27-03.25.12:992][842]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (132)
+[2016.04.27-03.25.12:992][842]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (131)
+[2016.04.27-03.25.12:992][842]LogModuleManager: Shutting down and abandoning module AnalyticsET (130)
+[2016.04.27-03.25.12:992][842]LogModuleManager: Shutting down and abandoning module Analytics (129)
+[2016.04.27-03.25.12:992][842]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.04.27-03.25.12:992][842]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.04.27-03.25.12:992][842]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.04.27-03.25.12:992][842]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.04.27-03.25.13:058][842]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.04.27-03.25.13:058][842]LogModuleManager: Shutting down and abandoning module SlateRemote (123)
+[2016.04.27-03.25.13:058][842]LogModuleManager: Shutting down and abandoning module SteamVRController (122)
+[2016.04.27-03.25.13:058][842]LogModuleManager: Shutting down and abandoning module SteamVR (121)
+[2016.04.27-03.25.13:058][842]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (120)
+[2016.04.27-03.25.13:058][842]LogModuleManager: Shutting down and abandoning module OculusLibrary (119)
+[2016.04.27-03.25.13:058][842]LogModuleManager: Shutting down and abandoning module OculusInput (118)
+[2016.04.27-03.25.13:058][842]LogModuleManager: Shutting down and abandoning module LeapMotionController (117)
+[2016.04.27-03.25.13:074][842]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (116)
+[2016.04.27-03.25.13:074][842]LogModuleManager: Shutting down and abandoning module CableComponent (115)
+[2016.04.27-03.25.13:074][842]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (114)
+[2016.04.27-03.25.13:074][842]LogModuleManager: Shutting down and abandoning module MessagingDebugger (113)
+[2016.04.27-03.25.13:074][842]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (112)
+[2016.04.27-03.25.13:074][842]LogModuleManager: Shutting down and abandoning module HTML5Networking (111)
+[2016.04.27-03.25.13:074][842]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (110)
+[2016.04.27-03.25.13:075][842]LogModuleManager: Shutting down and abandoning module PluginBrowser (109)
+[2016.04.27-03.25.13:075][842]LogModuleManager: Shutting down and abandoning module EpicSurvey (108)
+[2016.04.27-03.25.13:075][842]LogModuleManager: Shutting down and abandoning module DesktopPlatform (107)
+[2016.04.27-03.25.13:075][842]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (106)
+[2016.04.27-03.25.13:075][842]LogModuleManager: Shutting down and abandoning module UObjectPlugin (105)
+[2016.04.27-03.25.13:075][842]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (104)
+[2016.04.27-03.25.13:075][842]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (103)
+[2016.04.27-03.25.13:075][842]LogModuleManager: Shutting down and abandoning module SourceControl (102)
+[2016.04.27-03.25.13:075][842]LogModuleManager: Shutting down and abandoning module GitSourceControl (101)
+[2016.04.27-03.25.13:075][842]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (100)
+[2016.04.27-03.25.13:075][842]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (99)
+[2016.04.27-03.25.13:075][842]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (98)
+[2016.04.27-03.25.13:075][842]LogModuleManager: Shutting down and abandoning module MeshPaint (97)
+[2016.04.27-03.25.13:075][842]LogModuleManager: Shutting down and abandoning module SlateReflector (96)
+[2016.04.27-03.25.13:075][842]LogModuleManager: Shutting down and abandoning module HotReload (95)
+[2016.04.27-03.25.13:075][842]LogModuleManager: Shutting down and abandoning module MainFrame (94)
+[2016.04.27-03.25.13:075][842]LogModuleManager: Shutting down and abandoning module LevelEditor (93)
+[2016.04.27-03.25.13:076][842]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (92)
+[2016.04.27-03.25.13:080][842]LogModuleManager: Shutting down and abandoning module AssetRegistry (91)
+[2016.04.27-03.25.13:178][842]LogModuleManager: Shutting down and abandoning module ContentBrowser (90)
+[2016.04.27-03.25.13:179][842]LogModuleManager: Shutting down and abandoning module Paper2DEditor (89)
+[2016.04.27-03.25.13:179][842]LogModuleManager: Shutting down and abandoning module FileLogging (88)
+[2016.04.27-03.25.13:179][842]LogModuleManager: Shutting down and abandoning module AnalyticsBlueprintLibrary (87)
+[2016.04.27-03.25.13:179][842]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.04.27-03.25.13:280][842]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.04.27-03.25.13:280][842]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.04.27-03.25.13:280][842]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.04.27-03.25.13:286][842]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.04.27-03.25.13:286][842]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.04.27-03.25.13:286][842]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.04.27-03.25.13:286][842]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.04.27-03.25.13:286][842]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.04.27-03.25.13:286][842]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.04.27-03.25.13:286][842]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.04.27-03.25.13:286][842]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.04.27-03.25.13:286][842]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.04.27-03.25.13:286][842]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.04.27-03.25.13:286][842]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.04.27-03.25.13:286][842]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.04.27-03.25.13:286][842]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.04.27-03.25.13:286][842]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.04.27-03.25.13:286][842]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.04.27-03.25.13:286][842]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.04.27-03.25.13:289][842]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.04.27-03.25.13:289][842]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.04.27-03.25.13:289][842]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.04.27-03.25.13:289][842]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.04.27-03.25.13:289][842]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.04.27-03.25.13:289][842]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.04.27-03.25.13:289][842]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.04.27-03.25.13:289][842]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.04.27-03.25.13:289][842]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.04.27-03.25.13:289][842]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.04.27-03.25.13:305][842]LogDerivedDataCache: Shutdown
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.27-03.25.13:305][842]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.27-03.25.13:306][842]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.27-03.25.13:306][842]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.27-03.25.13:306][842]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.27-03.25.13:306][842]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.27-03.25.15:808][842]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.27-03.25.15:808][842]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.27-03.25.15:808][842]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.27-03.25.15:808][842]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.27-03.25.15:808][842]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.27-03.25.15:808][842]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.27-03.25.15:808][842]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.27-03.25.15:817][842]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.27-03.25.15:817][842]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.27-03.25.15:817][842]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.27-03.25.15:817][842]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.27-03.25.15:817][842]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.27-03.25.15:817][842]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.27-03.25.15:817][842]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.27-03.25.15:817][842]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.27-03.25.15:817][842]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.27-03.25.15:817][842]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.27-03.25.15:819][842]LogExit: Exiting.
+[2016.04.27-03.25.15:822][842]Log file closed, 04/26/16 23:25:15

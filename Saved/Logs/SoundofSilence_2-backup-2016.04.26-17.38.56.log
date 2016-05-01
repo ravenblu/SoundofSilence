@@ -1,0 +1,414 @@
+﻿[2016.04.26-21.38.21:298][  0]Log file open, 04/26/16 17:38:21
+[2016.04.26-21.38.21:298][  0]LogInit:Display: Running engine for game: SoundofSilence
+[2016.04.26-21.38.21:299][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.26-21.38.21:299][  0]LogInit:Display: RandInit(1346853898) SRandInit(1346853901).
+[2016.04.26-21.38.21:299][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.26-21.38.21:299][  0]LogStats: Stats thread started at 0.152734
+[2016.04.26-21.38.21:299][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.26-21.38.21:299][  0]LogInit: API Version: 2758231
+[2016.04.26-21.38.21:299][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.26-21.38.21:299][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.26-21.38.21:299][  0]LogInit: Build Configuration: Development
+[2016.04.26-21.38.21:299][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.26-21.38.21:299][  0]LogInit: Command line:  /Temp/Autosaves/Game/Levels/UEDPCHouseLevel -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+[2016.04.26-21.38.21:299][  0]LogInit: Base directory: D:/Unreal4/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.26-21.38.21:299][  0]LogInit: Rocket: 1
+[2016.04.26-21.38.21:316][  0]LogInit: Using libcurl 7.41.0
+[2016.04.26-21.38.21:316][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.26-21.38.21:316][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.26-21.38.21:316][  0]LogInit:  - other features:
+[2016.04.26-21.38.21:316][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.26-21.38.21:316][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.26-21.38.21:316][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.26-21.38.21:316][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.26-21.38.21:316][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.26-21.38.21:316][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.26-21.38.21:316][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.26-21.38.21:316][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.26-21.38.21:316][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.26-21.38.21:316][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.26-21.38.21:336][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.26-21.38.21:360][  0]LogInit: Object subsystem initialized
+[2016.04.26-21.38.21:363][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.26-21.38.21:363][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.26-21.38.21:372][  0]LogInit: Computer: INDIEGO
+[2016.04.26-21.38.21:372][  0]LogInit: User: Indie
+[2016.04.26-21.38.21:372][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.26-21.38.21:372][  0]LogInit: High frequency timer resolution =2.533210 MHz
+[2016.04.26-21.38.21:372][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.04.26-21.38.21:372][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.26-21.38.21:372][  0]LogMemory: Process Physical Memory: 54.85 MB used, 54.85 MB peak
+[2016.04.26-21.38.21:372][  0]LogMemory: Process Virtual Memory: 56.63 MB used, 56.63 MB peak
+[2016.04.26-21.38.21:372][  0]LogMemory: Physical Memory: 4480.81 MB used, 16273.04 MB total
+[2016.04.26-21.38.21:373][  0]LogMemory: Virtual Memory: 364.59 MB used, 134217728.00 MB total
+[2016.04.26-21.38.21:457][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.26-21.38.22:806][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960M    (Feature Level 11_0)
+[2016.04.26-21.38.22:806][  0]LogD3D11RHI: Adapter has 1972MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2016.04.26-21.38.22:828][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.04.26-21.38.22:828][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2016.04.26-21.38.22:832][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.26-21.38.22:832][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.04.26-21.38.22:832][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.26-21.38.22:843][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.26-21.38.22:844][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.26-21.38.22:872][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.26-21.38.22:904][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Intermediate/Shaders/WorkingDirectory/5780/).
+[2016.04.26-21.38.22:904][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Indie/AppData/Local/Temp/UnrealShaderWorkingDir/29C11722407CF5DBC73736B20D9088B6/'.
+[2016.04.26-21.38.22:905][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.26-21.38.25:550][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.26-21.38.25:563][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.26-21.38.25:575][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.26-21.38.25:587][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.26-21.38.25:599][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.26-21.38.25:608][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.26-21.38.25:616][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.26-21.38.25:624][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.26-21.38.25:632][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.26-21.38.25:641][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.26-21.38.25:651][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.26-21.38.25:669][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.26-21.38.25:669][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.26-21.38.25:671][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.26-21.38.25:699][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.26-21.38.25:709][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.26-21.38.25:718][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.26-21.38.25:728][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.26-21.38.25:728][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.26-21.38.25:924][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.26-21.38.26:068][  0]LogDerivedDataCache: Loaded boot cache 0.14s 41MB C:/Users/Indie/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.26-21.38.26:068][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Indie/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.26-21.38.26:069][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.26-21.38.26:069][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.26-21.38.26:069][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.26-21.38.26:069][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.26-21.38.26:296][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.26-21.38.26:310][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Indie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.26-21.38.26:841][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.26-21.38.26:850][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2016.04.26-21.38.27:192][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.26-21.38.27:192][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.26-21.38.27:995][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.26-21.38.28:464][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Movies/Default_Startup.mp4
+[2016.04.26-21.38.28:805][  0]SourceControl: Info Source control is disabled
+[2016.04.26-21.38.28:805][  0]SourceControl: Info Source control is disabled
+[2016.04.26-21.38.28:833][  0]SourceControl: Info Source control is disabled
+[2016.04.26-21.38.29:244][  0]LogObj: 28035 objects as part of root set at end of initial load.
+[2016.04.26-21.38.29:245][  0]LogUObjectAllocator: 5846688 out of 0 bytes used by permanent object pool.
+[2016.04.26-21.38.29:456][  0]LogEngine: Initializing Engine...
+[2016.04.26-21.38.29:462][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.26-21.38.29:464][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.26-21.38.29:780][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.26-21.38.29:805][  0]LogInit: FAudioDevice initialized.
+[2016.04.26-21.38.29:813][  0]LogInit: Texture streaming: Enabled
+[2016.04.26-21.38.30:031][  0]LogNet: Browse: /Temp/Autosaves/Game/Levels/UEDPCHouseLevel?Name=Player
+[2016.04.26-21.38.30:031][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Levels/UEDPCHouseLevel?Name=Player
+[2016.04.26-21.38.30:066][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A480991C0
+[2016.04.26-21.38.30:098][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.26-21.38.30:098][  0]LogMemory: Process Physical Memory: 367.90 MB used, 367.90 MB peak
+[2016.04.26-21.38.30:098][  0]LogMemory: Process Virtual Memory: 330.60 MB used, 335.15 MB peak
+[2016.04.26-21.38.30:098][  0]LogMemory: Physical Memory: 4748.11 MB used, 16273.04 MB total
+[2016.04.26-21.38.30:098][  0]LogMemory: Virtual Memory: 865.55 MB used, 134217728.00 MB total
+[2016.04.26-21.38.30:098][  0]LogMemory: 
+[2016.04.26-21.38.30:098][  0]Allocator Stats for TBB: (not implemented)
+[2016.04.26-21.38.35:285][  0]LogAIModule: Creating AISystem for world HouseLevel
+[2016.04.26-21.38.35:295][  0]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.26-21.38.35:304][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[54] invalid
+[2016.04.26-21.38.35:304][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[77] invalid
+[2016.04.26-21.38.35:304][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[100] invalid
+[2016.04.26-21.38.35:304][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[101] invalid
+[2016.04.26-21.38.35:304][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[102] invalid
+[2016.04.26-21.38.35:304][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[103] invalid
+[2016.04.26-21.38.35:304][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[104] invalid
+[2016.04.26-21.38.35:344][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Levels/UEDPCHouseLevel.HouseLevel up for play (max tick rate 0) at 2016.04.26-17.38.35
+[2016.04.26-21.38.35:353][  0]LogWorld: Bringing up level for play took: 0.054767
+[2016.04.26-21.38.35:382][  0]LogAnalytics: Creating configured Analytics provider FileLogging
+[2016.04.26-21.38.35:383][  0]LogFileLoggingAnalytics:Display: Session created file (../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Saved/Analytics/f7fd99f1d803ebbcafe1a7209dc22344-2016.04.26-17.38.35.analytics) for user (f7fd99f1d803ebbcafe1a7209dc22344)
+[2016.04.26-21.38.35:383][  0]LogBlueprintUserMessages: [HouseLevel_C_0] Session starts!true
+[2016.04.26-21.38.35:388][  0]LogInit:Display: Game Engine Initialized.
+[2016.04.26-21.38.35:635][  0]LogLoad: Full Startup: 15.11 seconds (BP compile: 1.33 seconds)
+[2016.04.26-21.38.35:653][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.26-21.38.35:661][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.26-21.38.35:911][  0]LogRenderer: Reallocating scene render targets to support 128x128 (Frame:1).
+[2016.04.26-21.38.36:188][  0]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2).
+[2016.04.26-21.38.36:188][  0]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.36:188][  0]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.36:197][  1]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Landed
+[2016.04.26-21.38.36:210][  1]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.36:705][  2]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.36:748][  3]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.36:765][  4]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.36:787][  5]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.36:827][  6]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.36:845][  7]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.36:860][  8]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.36:879][  9]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.36:899][ 10]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.36:913][ 11]LogAnalytics: Creating configured Analytics provider FileLogging
+[2016.04.26-21.38.36:913][ 11]LogFileLoggingAnalytics:Display: Analytics event (Player Location) written with (4) attributes
+[2016.04.26-21.38.36:913][ 11]LogBlueprintUserMessages: [HouseLevel_C_0] Time: 1/ X: 600.0/ Y: -100.0/ Z: 221.793091
+[2016.04.26-21.38.36:920][ 11]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.36:938][ 12]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.36:957][ 13]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.36:983][ 14]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:000][ 15]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:016][ 16]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:039][ 17]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:059][ 18]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:085][ 19]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:117][ 20]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:143][ 21]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:173][ 22]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:197][ 23]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:225][ 24]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:251][ 25]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:278][ 26]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:303][ 27]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:328][ 28]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:355][ 29]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:383][ 30]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:412][ 31]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:440][ 32]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:470][ 33]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:496][ 34]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:525][ 35]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:565][ 36]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:588][ 37]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:615][ 38]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:642][ 39]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:667][ 40]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:693][ 41]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:720][ 42]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:751][ 43]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:781][ 44]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:808][ 45]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:835][ 46]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:864][ 47]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:889][ 48]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:915][ 49]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:938][ 50]LogAnalytics: Creating configured Analytics provider FileLogging
+[2016.04.26-21.38.37:938][ 50]LogFileLoggingAnalytics:Display: Analytics event (Player Location) written with (4) attributes
+[2016.04.26-21.38.37:939][ 50]LogBlueprintUserMessages: [HouseLevel_C_0] Time: 2/ X: 600.0/ Y: -100.0/ Z: 221.793091
+[2016.04.26-21.38.37:943][ 50]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:969][ 51]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.37:998][ 52]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:025][ 53]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:053][ 54]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:084][ 55]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:114][ 56]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:139][ 57]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:166][ 58]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:191][ 59]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:191][ 59]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:218][ 60]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:243][ 61]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:269][ 62]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:300][ 63]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:328][ 64]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:356][ 65]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:384][ 66]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:414][ 67]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:444][ 68]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:470][ 69]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:497][ 70]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:527][ 71]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:558][ 72]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:587][ 73]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:618][ 74]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:647][ 75]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:675][ 76]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:701][ 77]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:731][ 78]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:762][ 79]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:793][ 80]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:822][ 81]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:853][ 82]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:879][ 83]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:909][ 84]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:940][ 85]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:965][ 86]LogAnalytics: Creating configured Analytics provider FileLogging
+[2016.04.26-21.38.38:965][ 86]LogFileLoggingAnalytics:Display: Analytics event (Player Location) written with (4) attributes
+[2016.04.26-21.38.38:965][ 86]LogBlueprintUserMessages: [HouseLevel_C_0] Time: 3/ X: 600.0/ Y: -100.0/ Z: 221.793091
+[2016.04.26-21.38.38:969][ 86]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.38:998][ 87]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:026][ 88]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:055][ 89]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:079][ 90]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:105][ 91]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:131][ 92]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:160][ 93]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:184][ 94]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:210][ 95]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:237][ 96]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:264][ 97]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:289][ 98]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:315][ 99]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:340][100]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:364][101]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:390][102]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:418][103]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:445][104]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:470][105]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:496][106]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:520][107]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:542][108]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:567][109]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:591][110]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:616][111]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:641][112]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:666][113]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:706][114]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:722][115]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:746][116]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:792][117]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:808][118]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:825][119]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.39:994][120]LogPackageName: SearchForPackageOnDisk took   0.149s to resolve Main.umap.
+[2016.04.26-21.38.39:998][120]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2016.04.26-21.38.40:139][121]LogPackageName: SearchForPackageOnDisk took   0.140s to resolve Main.umap.
+[2016.04.26-21.38.40:139][121]LogNet: Browse: /Game/Levels/Main
+[2016.04.26-21.38.40:140][121]LogLoad: LoadMap: /Game/Levels/Main
+[2016.04.26-21.38.40:284][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A4D82DEE0
+[2016.04.26-21.38.40:433][121]LogMemory: Platform Memory Stats for Windows
+[2016.04.26-21.38.40:433][121]LogMemory: Process Physical Memory: 536.25 MB used, 548.37 MB peak
+[2016.04.26-21.38.40:433][121]LogMemory: Process Virtual Memory: 488.91 MB used, 503.22 MB peak
+[2016.04.26-21.38.40:434][121]LogMemory: Physical Memory: 4897.99 MB used, 16273.04 MB total
+[2016.04.26-21.38.40:434][121]LogMemory: Virtual Memory: 1047.76 MB used, 134217728.00 MB total
+[2016.04.26-21.38.40:434][121]LogMemory: 
+[2016.04.26-21.38.40:434][121]Allocator Stats for TBB: (not implemented)
+[2016.04.26-21.38.40:493][121]LogAIModule: Creating AISystem for world Main
+[2016.04.26-21.38.41:831][121]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.26-21.38.41:837][121]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 0) at 2016.04.26-17.38.41
+[2016.04.26-21.38.41:837][121]LogWorld: Bringing up level for play took: 0.001617
+[2016.04.26-21.38.41:838][121]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.04.26-21.38.46:423][392]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.26-21.38.46:431][392]LogEngine: All Windows Closed
+[2016.04.26-21.38.46:431][392]LogWindows: FPlatformMisc::RequestExit(0)
+[2016.04.26-21.38.46:482][393]LogExit: Preparing to exit.
+[2016.04.26-21.38.46:599][393]LogExit: Game engine shut down
+[2016.04.26-21.38.47:060][393]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A4D82E200
+[2016.04.26-21.38.47:060][393]LogExit: Object subsystem successfully closed.
+[2016.04.26-21.38.47:091][393]LogD3D11RHI: Shutdown
+[2016.04.26-21.38.47:091][393]LogD3D11RHI: CleanupD3DDevice
+[2016.04.26-21.38.47:263][393]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.26-21.38.47:291][393]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (120)
+[2016.04.26-21.38.47:694][393]LogModuleManager: Shutting down and abandoning module AutomationController (119)
+[2016.04.26-21.38.47:694][393]LogModuleManager: Shutting down and abandoning module AutomationWorker (118)
+[2016.04.26-21.38.47:695][393]LogModuleManager: Shutting down and abandoning module CharacterAI (117)
+[2016.04.26-21.38.47:695][393]LogModuleManager: Shutting down and abandoning module Analytics (116)
+[2016.04.26-21.38.47:695][393]LogModuleManager: Shutting down and abandoning module AITestSuite (115)
+[2016.04.26-21.38.47:695][393]LogModuleManager: Shutting down and abandoning module GameplayDebugger (114)
+[2016.04.26-21.38.47:695][393]LogModuleManager: Shutting down and abandoning module AIModule (113)
+[2016.04.26-21.38.47:695][393]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (112)
+[2016.04.26-21.38.47:695][393]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (111)
+[2016.04.26-21.38.47:695][393]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (110)
+[2016.04.26-21.38.47:695][393]LogModuleManager: Shutting down and abandoning module ProfilerService (109)
+[2016.04.26-21.38.47:783][393]LogModuleManager: Shutting down and abandoning module TaskGraph (108)
+[2016.04.26-21.38.47:783][393]LogModuleManager: Shutting down and abandoning module SlateRemote (107)
+[2016.04.26-21.38.47:783][393]LogModuleManager: Shutting down and abandoning module SteamVRController (106)
+[2016.04.26-21.38.47:783][393]LogModuleManager: Shutting down and abandoning module SteamVR (105)
+[2016.04.26-21.38.47:783][393]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (104)
+[2016.04.26-21.38.47:783][393]LogModuleManager: Shutting down and abandoning module OculusLibrary (103)
+[2016.04.26-21.38.47:783][393]LogModuleManager: Shutting down and abandoning module OculusInput (102)
+[2016.04.26-21.38.47:783][393]LogModuleManager: Shutting down and abandoning module LeapMotionController (101)
+[2016.04.26-21.38.47:822][393]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (100)
+[2016.04.26-21.38.47:822][393]LogModuleManager: Shutting down and abandoning module CableComponent (99)
+[2016.04.26-21.38.47:822][393]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (98)
+[2016.04.26-21.38.47:822][393]LogModuleManager: Shutting down and abandoning module HTML5Networking (97)
+[2016.04.26-21.38.47:822][393]LogModuleManager: Shutting down and abandoning module DesktopPlatform (96)
+[2016.04.26-21.38.47:822][393]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (95)
+[2016.04.26-21.38.47:822][393]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.04.26-21.38.47:822][393]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (93)
+[2016.04.26-21.38.47:822][393]LogModuleManager: Shutting down and abandoning module UObjectPlugin (92)
+[2016.04.26-21.38.47:822][393]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (91)
+[2016.04.26-21.38.47:822][393]LogModuleManager: Shutting down and abandoning module SourceControl (90)
+[2016.04.26-21.38.47:822][393]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (89)
+[2016.04.26-21.38.47:822][393]LogModuleManager: Shutting down and abandoning module FileLogging (88)
+[2016.04.26-21.38.47:831][393]LogFileLoggingAnalytics:Display: Session ended for user (f7fd99f1d803ebbcafe1a7209dc22344) and session id (f7fd99f1d803ebbcafe1a7209dc22344-2016.04.26-17.38.35)
+[2016.04.26-21.38.47:831][393]LogModuleManager: Shutting down and abandoning module AnalyticsBlueprintLibrary (87)
+[2016.04.26-21.38.47:831][393]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.04.26-21.38.47:831][393]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.04.26-21.38.47:831][393]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.04.26-21.38.47:831][393]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.04.26-21.38.47:839][393]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.04.26-21.38.47:839][393]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.04.26-21.38.47:839][393]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.04.26-21.38.47:839][393]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.04.26-21.38.47:839][393]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.04.26-21.38.47:839][393]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.04.26-21.38.47:839][393]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.04.26-21.38.47:840][393]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.04.26-21.38.47:840][393]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.04.26-21.38.47:840][393]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.04.26-21.38.47:840][393]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.04.26-21.38.47:840][393]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.04.26-21.38.47:840][393]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.04.26-21.38.47:840][393]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.04.26-21.38.47:840][393]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.04.26-21.38.47:840][393]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.04.26-21.38.47:845][393]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.04.26-21.38.47:845][393]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.04.26-21.38.47:846][393]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.04.26-21.38.47:846][393]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.04.26-21.38.47:846][393]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.04.26-21.38.47:846][393]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.04.26-21.38.47:846][393]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.04.26-21.38.47:846][393]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.04.26-21.38.47:846][393]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.04.26-21.38.47:846][393]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.04.26-21.38.48:317][393]LogDerivedDataCache: Shutdown
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.26-21.38.48:318][393]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.26-21.38.48:319][393]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.26-21.38.48:319][393]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.26-21.38.48:319][393]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.26-21.38.48:319][393]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.26-21.38.48:319][393]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.26-21.38.48:319][393]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.26-21.38.48:319][393]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.26-21.38.48:319][393]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.26-21.38.48:319][393]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.26-21.38.48:319][393]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.26-21.38.48:319][393]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.26-21.38.48:319][393]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.26-21.38.48:320][393]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.26-21.38.48:320][393]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.26-21.38.48:320][393]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.26-21.38.48:320][393]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.26-21.38.48:320][393]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.26-21.38.48:320][393]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.26-21.38.48:320][393]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.26-21.38.48:320][393]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.26-21.38.48:320][393]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.26-21.38.48:320][393]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.26-21.38.48:323][393]LogExit: Exiting.
+[2016.04.26-21.38.48:329][393]Log file closed, 04/26/16 17:38:48

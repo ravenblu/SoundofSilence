@@ -1,0 +1,255 @@
+{
+	"sessionId" : "f7fd99f1d803ebbcafe1a7209dc22344-2016.04.13-19.45.33",
+	"userId" : "f7fd99f1d803ebbcafe1a7209dc22344",
+	"events" : [
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "-54.327545"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-1227.983032"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "632.128357"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "1"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "-54.327545"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-1227.983032"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "632.128357"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "2"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "25.451044"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-1104.419678"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "632.128357"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "3"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "340.55545"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-698.547546"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "631.9021"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "4"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "265.646667"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-850.862793"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "631.9021"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "5"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "265.646667"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-850.862793"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "631.9021"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "6"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "265.646667"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-850.862793"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "631.9021"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "7"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "-4.665326"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-1141.503052"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "632.128357"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "8"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "-307.072937"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-1238.841675"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "632.128357"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "9"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "-838.120911"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-1392.144287"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "632.128357"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "10"
+			}
+			]
+		}
+	]
+}

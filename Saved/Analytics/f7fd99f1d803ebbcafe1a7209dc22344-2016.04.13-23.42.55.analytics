@@ -1,0 +1,55 @@
+{
+	"sessionId" : "f7fd99f1d803ebbcafe1a7209dc22344-2016.04.13-23.42.55",
+	"userId" : "f7fd99f1d803ebbcafe1a7209dc22344",
+	"events" : [
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "0.0"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "0.0"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "118.149994"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "1"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "0.0"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "0.0"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "118.149994"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "2"
+			}
+			]
+		}
+	]
+}

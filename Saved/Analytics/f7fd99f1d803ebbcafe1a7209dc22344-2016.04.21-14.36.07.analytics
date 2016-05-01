@@ -1,0 +1,307 @@
+{
+	"sessionId" : "f7fd99f1d803ebbcafe1a7209dc22344-2016.04.21-14.36.07",
+	"userId" : "f7fd99f1d803ebbcafe1a7209dc22344",
+	"events" : [
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "584.144043"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-266.978668"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "222.12355"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "1"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "673.261902"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-175.79245"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "222.12355"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "2"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "703.512268"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-83.228798"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "219.812775"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "3"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "667.32666"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-120.253845"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "221.666809"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "4"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "703.572937"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-58.842163"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "219.134567"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "5"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "703.572937"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-58.842163"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "219.134567"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "6"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "387.009033"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-58.970928"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "222.12355"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "7"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "703.524048"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-82.170326"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "219.773163"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "8"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "703.524048"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-82.170326"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "219.773163"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "9"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "386.66449"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-59.103321"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "222.12355"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "10"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "703.41925"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-82.162918"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "219.774261"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "11"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : [
+			{
+				"name" : "X",
+				"value" : "703.41925"
+			}
+			,
+			{
+				"name" : "Y",
+				"value" : "-82.162918"
+			}
+			,
+			{
+				"name" : "Z",
+				"value" : "219.774261"
+			}
+			,
+			{
+				"name" : "Time",
+				"value" : "12"
+			}
+			]
+		}
+,
+		{
+			"eventName" : "Player Location"
+,			"attributes" : 

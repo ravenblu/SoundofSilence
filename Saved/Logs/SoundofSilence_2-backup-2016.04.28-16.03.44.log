@@ -1,0 +1,1527 @@
+﻿[2016.04.28-19.56.40:391][  0]Log file open, 04/28/16 15:56:40
+[2016.04.28-19.56.40:391][  0]LogInit:Display: Running engine for game: SoundofSilence
+[2016.04.28-19.56.40:391][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.28-19.56.40:391][  0]LogInit:Display: RandInit(-1556233074) SRandInit(-1556233071).
+[2016.04.28-19.56.40:391][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.28-19.56.40:391][  0]LogStats: Stats thread started at 0.132034
+[2016.04.28-19.56.40:391][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.28-19.56.40:391][  0]LogInit: API Version: 2758231
+[2016.04.28-19.56.40:391][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.28-19.56.40:391][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.28-19.56.40:391][  0]LogInit: Build Configuration: Development
+[2016.04.28-19.56.40:391][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.28-19.56.40:391][  0]LogInit: Command line:  /Temp/Autosaves/Game/Levels/UEDPCHouseLevel -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+[2016.04.28-19.56.40:391][  0]LogInit: Base directory: D:/Unreal4/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.28-19.56.40:391][  0]LogInit: Rocket: 1
+[2016.04.28-19.56.40:405][  0]LogInit: Using libcurl 7.41.0
+[2016.04.28-19.56.40:405][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.28-19.56.40:405][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.28-19.56.40:405][  0]LogInit:  - other features:
+[2016.04.28-19.56.40:405][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.28-19.56.40:405][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.28-19.56.40:405][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.28-19.56.40:405][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.28-19.56.40:405][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.28-19.56.40:405][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.28-19.56.40:405][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.28-19.56.40:405][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.28-19.56.40:405][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.28-19.56.40:405][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.28-19.56.40:418][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.28-19.56.40:433][  0]LogInit: Object subsystem initialized
+[2016.04.28-19.56.40:435][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.28-19.56.40:435][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.28-19.56.40:441][  0]LogInit: Computer: INDIEGO
+[2016.04.28-19.56.40:441][  0]LogInit: User: Indie
+[2016.04.28-19.56.40:441][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.28-19.56.40:441][  0]LogInit: High frequency timer resolution =2.533210 MHz
+[2016.04.28-19.56.40:441][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.04.28-19.56.40:441][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.28-19.56.40:441][  0]LogMemory: Process Physical Memory: 54.93 MB used, 54.93 MB peak
+[2016.04.28-19.56.40:441][  0]LogMemory: Process Virtual Memory: 56.64 MB used, 56.64 MB peak
+[2016.04.28-19.56.40:441][  0]LogMemory: Physical Memory: 7157.89 MB used, 16273.04 MB total
+[2016.04.28-19.56.40:441][  0]LogMemory: Virtual Memory: 364.59 MB used, 134217728.00 MB total
+[2016.04.28-19.56.40:504][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.28-19.56.41:315][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960M    (Feature Level 11_0)
+[2016.04.28-19.56.41:315][  0]LogD3D11RHI: Adapter has 1972MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2016.04.28-19.56.41:324][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.04.28-19.56.41:324][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2016.04.28-19.56.41:325][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.28-19.56.41:325][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.04.28-19.56.41:325][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.28-19.56.41:331][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.28-19.56.41:331][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.28-19.56.41:343][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.28-19.56.41:362][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Intermediate/Shaders/WorkingDirectory/8744/).
+[2016.04.28-19.56.41:362][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Indie/AppData/Local/Temp/UnrealShaderWorkingDir/AF9D74564A0B63A72834E496013145DC/'.
+[2016.04.28-19.56.41:362][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.28-19.56.42:400][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.28-19.56.42:402][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.28-19.56.42:405][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.28-19.56.42:408][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.28-19.56.42:411][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.28-19.56.42:413][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.28-19.56.42:415][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.28-19.56.42:417][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.28-19.56.42:419][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.28-19.56.42:421][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.28-19.56.42:423][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.28-19.56.42:427][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.28-19.56.42:427][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.28-19.56.42:428][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.28-19.56.42:443][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.28-19.56.42:445][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.28-19.56.42:447][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.28-19.56.42:450][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.28-19.56.42:450][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.28-19.56.42:494][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.28-19.56.42:535][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Indie/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.28-19.56.42:535][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Indie/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.28-19.56.42:536][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.28-19.56.42:536][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.28-19.56.42:536][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.28-19.56.42:536][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.28-19.56.42:588][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.28-19.56.42:600][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Indie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.28-19.56.42:738][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.28-19.56.42:740][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2016.04.28-19.56.42:822][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.28-19.56.42:822][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.28-19.56.43:012][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.28-19.56.43:151][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Sound of Silence/Sound-of-Silence-master (1)/Sound-of-Silence-master/Content/Movies/Default_Startup.mp4
+[2016.04.28-19.56.43:304][  0]SourceControl: Info Source control is disabled
+[2016.04.28-19.56.43:304][  0]SourceControl: Info Source control is disabled
+[2016.04.28-19.56.43:316][  0]SourceControl: Info Source control is disabled
+[2016.04.28-19.56.43:523][  0]LogObj: 28035 objects as part of root set at end of initial load.
+[2016.04.28-19.56.43:523][  0]LogUObjectAllocator: 5846688 out of 0 bytes used by permanent object pool.
+[2016.04.28-19.56.43:592][  0]LogEngine: Initializing Engine...
+[2016.04.28-19.56.43:597][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.28-19.56.43:598][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.28-19.56.43:727][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.28-19.56.43:738][  0]LogInit: FAudioDevice initialized.
+[2016.04.28-19.56.43:743][  0]LogInit: Texture streaming: Enabled
+[2016.04.28-19.56.44:233][  0]LogNet: Browse: /Temp/Autosaves/Game/Levels/UEDPCHouseLevel?Name=Player
+[2016.04.28-19.56.44:233][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Levels/UEDPCHouseLevel?Name=Player
+[2016.04.28-19.56.44:270][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C27893CD60
+[2016.04.28-19.56.44:300][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.28-19.56.44:301][  0]LogMemory: Process Physical Memory: 390.80 MB used, 390.80 MB peak
+[2016.04.28-19.56.44:301][  0]LogMemory: Process Virtual Memory: 342.72 MB used, 345.27 MB peak
+[2016.04.28-19.56.44:301][  0]LogMemory: Physical Memory: 7460.92 MB used, 16273.04 MB total
+[2016.04.28-19.56.44:301][  0]LogMemory: Virtual Memory: 976.96 MB used, 134217728.00 MB total
+[2016.04.28-19.56.44:301][  0]LogMemory: 
+[2016.04.28-19.56.44:301][  0]Allocator Stats for TBB: (not implemented)
+[2016.04.28-19.56.44:422][  0]LogBlueprint:Warning: [SilenceSpirit] CreatePinForVariable: 'overlappingPlayer' variable not found. Base class was probably changed.
+[2016.04.28-19.56.44:422][  0]LogBlueprint:Warning: [SilenceSpirit] CreatePinForVariable: 'overlappingPlayer' variable not found. Base class was probably changed.
+[2016.04.28-19.56.44:422][  0]LogBlueprint:Warning: [SilenceSpirit] CreatePinForVariable: 'overlappingPlayer' variable not found. Base class was probably changed.
+[2016.04.28-19.56.44:422][  0]LogBlueprint:Warning: [SilenceSpirit] CreatePinForVariable: 'overlappingPlayer' variable not found. Base class was probably changed.
+[2016.04.28-19.56.44:422][  0]LogBlueprint:Warning: [SilenceSpirit] CreatePinForVariable: 'cheapPlayerRef' variable not found. Base class was probably changed.
+[2016.04.28-19.56.44:422][  0]LogBlueprint:Warning: [SilenceSpirit] CreatePinForVariable: 'cheapPlayerRef' variable not found. Base class was probably changed.
+[2016.04.28-19.56.44:422][  0]LogBlueprint:Warning: [SilenceSpirit] CreatePinForVariable: 'cheapPlayerRef' variable not found. Base class was probably changed.
+[2016.04.28-19.56.44:424][  0]LogBlueprint:Warning: [compiler SilenceSpirit] Warning Could not find a variable named "cheapPlayerRef" in 'SilenceSpirit_C'.
+Make sure 'SilenceSpirit_C' has been compiled for  Get cheapPlayerRef 
+[2016.04.28-19.56.44:424][  0]LogBlueprint:Warning: [compiler SilenceSpirit] Warning Could not find a variable named "cheapPlayerRef" in 'SilenceSpirit_C'.
+Make sure 'SilenceSpirit_C' has been compiled for  Set cheapPlayerRef 
+[2016.04.28-19.56.44:424][  0]LogBlueprint:Warning: [compiler SilenceSpirit] Warning Could not find a variable named "overlappingPlayer" in 'SilenceSpirit_C'.
+Make sure 'SilenceSpirit_C' has been compiled for  Set overlappingPlayer 
+[2016.04.28-19.56.44:424][  0]LogBlueprint:Warning: [compiler SilenceSpirit] Warning Could not find a variable named "overlappingPlayer" in 'SilenceSpirit_C'.
+Make sure 'SilenceSpirit_C' has been compiled for  Set overlappingPlayer 
+[2016.04.28-19.56.44:426][  0]LogBlueprint:Warning: [compiler SilenceSpirit] Warning [0004.66] Compile of SilenceSpirit successful, but with 4 Warning(s) [in 3 ms]
+[2016.04.28-19.56.44:427][  0]LogBlueprint:Warning: [compiler SilenceSpirit] Warning [0004.66] Compile of SilenceSpirit successful, but with 5 Warning(s) [in 0 ms]
+[2016.04.28-19.56.44:427][  0]LogBlueprint:Warning: [compiler SilenceSpirit] Warning [0004.66] Compile of SilenceSpirit successful, but with 6 Warning(s) [in 0 ms]
+[2016.04.28-19.56.44:502][  0]LogLinker:Warning: CreateImport: Failed to load Outer for resource 'Sprite': GotoLvl2_Blueprint_C /Game/ObjectBlueprints/GotoLvl2_Blueprint.Default__GotoLvl2_Blueprint_C
+[2016.04.28-19.56.44:863][  0]LogBlueprint:Warning: [compiler SilenceSpirit] Warning Could not find a variable named "cheapPlayerRef" in 'SilenceSpirit_C'.
+Make sure 'SilenceSpirit_C' has been compiled for  Get cheapPlayerRef 
+[2016.04.28-19.56.44:863][  0]LogBlueprint:Warning: [compiler SilenceSpirit] Warning Could not find a variable named "cheapPlayerRef" in 'SilenceSpirit_C'.
+Make sure 'SilenceSpirit_C' has been compiled for  Set cheapPlayerRef 
+[2016.04.28-19.56.44:863][  0]LogBlueprint:Warning: [compiler SilenceSpirit] Warning Could not find a variable named "overlappingPlayer" in 'SilenceSpirit_C'.
+Make sure 'SilenceSpirit_C' has been compiled for  Set overlappingPlayer 
+[2016.04.28-19.56.44:863][  0]LogBlueprint:Warning: [compiler SilenceSpirit] Warning Could not find a variable named "overlappingPlayer" in 'SilenceSpirit_C'.
+Make sure 'SilenceSpirit_C' has been compiled for  Set overlappingPlayer 
+[2016.04.28-19.56.44:865][  0]LogBlueprint:Warning: [compiler SilenceSpirit] Warning [0005.10] Compile of SilenceSpirit successful, but with 4 Warning(s) [in 3 ms]
+[2016.04.28-19.56.44:865][  0]LogBlueprint:Warning: [compiler SilenceSpirit] Warning [0005.10] Compile of SilenceSpirit successful, but with 5 Warning(s) [in 0 ms]
+[2016.04.28-19.56.44:866][  0]LogBlueprint:Warning: [compiler SilenceSpirit] Warning [0005.10] Compile of SilenceSpirit successful, but with 6 Warning(s) [in 0 ms]
+[2016.04.28-19.56.45:782][  0]LogAIModule: Creating AISystem for world HouseLevel
+[2016.04.28-19.56.45:785][  0]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.28-19.56.45:793][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[54] invalid
+[2016.04.28-19.56.45:793][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[77] invalid
+[2016.04.28-19.56.45:793][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[100] invalid
+[2016.04.28-19.56.45:793][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[101] invalid
+[2016.04.28-19.56.45:793][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[102] invalid
+[2016.04.28-19.56.45:793][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[103] invalid
+[2016.04.28-19.56.45:793][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/ThirdPersonBP/House.House] ConvexElem[104] invalid
+[2016.04.28-19.56.45:826][  0]LogPhysics:Warning: MoveFixedBody: Trying to move component'/Temp/Autosaves/Game/Levels/UEDPCHouseLevel.HouseLevel:PersistentLevel.Diary1_Blueprint_C_0.StaticMeshComponent0' with a non-Movable Mobility.
+[2016.04.28-19.56.45:830][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Levels/UEDPCHouseLevel.HouseLevel up for play (max tick rate 0) at 2016.04.28-15.56.45
+[2016.04.28-19.56.45:835][  0]LogWorld: Bringing up level for play took: 0.047971
+[2016.04.28-19.56.45:842][  0]LogBlueprintUserMessages: [customGameInstance_C_0] 20.0
+[2016.04.28-19.56.45:842][  0]LogBlueprintUserMessages: [customGameInstance_C_0] called customgameinstance
+[2016.04.28-19.56.45:843][  0]LogInit:Display: Game Engine Initialized.
+[2016.04.28-19.56.46:057][  0]LogLoad: Full Startup: 6.29 seconds (BP compile: 0.42 seconds)
+[2016.04.28-19.56.46:080][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2016.04.28-19.56.46:086][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.28-19.56.46:154][  0]LogRenderer: Reallocating scene render targets to support 128x128 (Frame:1).
+[2016.04.28-19.56.46:239][  1]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2).
+[2016.04.28-19.56.46:371][  2]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.46:388][  3]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.46:409][  4]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.46:439][  5]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.46:471][  6]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Landed
+[2016.04.28-19.56.46:472][  6]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.46:503][  7]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.46:533][  8]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.46:563][  9]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.46:589][ 10]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.46:615][ 11]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.46:647][ 12]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.46:674][ 13]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.46:700][ 14]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.46:727][ 15]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.46:756][ 16]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.46:783][ 17]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.46:807][ 18]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.46:834][ 19]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.46:861][ 20]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.46:886][ 21]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.46:911][ 22]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.46:941][ 23]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.46:970][ 24]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.46:996][ 25]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:023][ 26]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:049][ 27]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:076][ 28]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:105][ 29]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:140][ 30]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:165][ 31]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:193][ 32]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:221][ 33]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:252][ 34]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:280][ 35]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:312][ 36]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:340][ 37]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:369][ 38]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:396][ 39]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:422][ 40]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:449][ 41]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:475][ 42]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:501][ 43]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:528][ 44]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:556][ 45]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:586][ 46]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:615][ 47]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:648][ 48]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:674][ 49]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:700][ 50]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:727][ 51]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:755][ 52]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:782][ 53]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:809][ 54]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:835][ 55]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:862][ 56]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:890][ 57]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:916][ 58]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:943][ 59]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.47:974][ 60]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:003][ 61]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:029][ 62]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:056][ 63]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:084][ 64]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:110][ 65]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:137][ 66]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:165][ 67]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:191][ 68]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:218][ 69]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:244][ 70]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:270][ 71]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:302][ 72]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:330][ 73]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:357][ 74]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:383][ 75]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:410][ 76]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:436][ 77]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:463][ 78]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:490][ 79]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:516][ 80]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:542][ 81]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:570][ 82]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:597][ 83]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:624][ 84]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:655][ 85]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:683][ 86]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:710][ 87]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:735][ 88]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:761][ 89]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:787][ 90]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:813][ 91]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:838][ 92]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:864][ 93]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:889][ 94]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:915][ 95]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:941][ 96]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:972][ 97]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.48:998][ 98]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:022][ 99]LogBlueprintUserMessages: [HouseLevel_C_2] 1
+[2016.04.28-19.56.49:023][ 99]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:048][100]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:074][101]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:100][102]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:126][103]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:152][104]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:178][105]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:204][106]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:230][107]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:255][108]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:281][109]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:312][110]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:338][111]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:363][112]LogBlueprintUserMessages: [HouseLevel_C_2] 2
+[2016.04.28-19.56.49:364][112]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:389][113]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:414][114]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:440][115]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:466][116]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:492][117]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:517][118]LogBlueprintUserMessages: [HouseLevel_C_2] 3
+[2016.04.28-19.56.49:517][118]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:543][119]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:568][120]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:594][121]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:620][122]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:651][123]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:677][124]LogBlueprintUserMessages: [HouseLevel_C_2] 4
+[2016.04.28-19.56.49:677][124]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:702][125]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:728][126]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:753][127]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:779][128]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:804][129]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:829][130]LogBlueprintUserMessages: [HouseLevel_C_2] 5
+[2016.04.28-19.56.49:830][130]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:855][131]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:880][132]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:905][133]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:931][134]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:956][135]LogBlueprintUserMessages: [HouseLevel_C_2] 6
+[2016.04.28-19.56.49:957][135]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.49:988][136]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:014][137]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:040][138]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:065][139]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:103][140]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:122][141]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:142][142]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:167][143]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:193][144]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:218][145]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:244][146]LogBlueprintUserMessages: [HouseLevel_C_2] 7
+[2016.04.28-19.56.50:245][146]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:270][147]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:301][148]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:328][149]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:353][150]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:379][151]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:403][152]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:430][153]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:455][154]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:481][155]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:506][156]LogBlueprintUserMessages: [HouseLevel_C_2] 8
+[2016.04.28-19.56.50:507][156]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:532][157]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:558][158]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:584][159]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:610][160]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:640][161]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:669][162]LogBlueprintUserMessages: [HouseLevel_C_2] 9
+[2016.04.28-19.56.50:669][162]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:693][163]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:719][164]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:745][165]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:770][166]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:796][167]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:820][168]LogBlueprintUserMessages: [HouseLevel_C_2] 10
+[2016.04.28-19.56.50:821][168]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:846][169]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:871][170]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:897][171]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:923][172]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:952][173]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.50:978][174]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:005][175]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:030][176]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:056][177]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:081][178]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:107][179]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:132][180]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:157][181]LogBlueprintUserMessages: [HouseLevel_C_2] 11
+[2016.04.28-19.56.51:158][181]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:183][182]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:209][183]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:234][184]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:260][185]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:286][186]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:317][187]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:342][188]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:368][189]LogBlueprintUserMessages: [HouseLevel_C_2] 12
+[2016.04.28-19.56.51:394][190]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:419][191]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:445][192]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:470][193]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:497][194]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:522][195]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:548][196]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:574][197]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:599][198]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:630][199]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:656][200]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:682][201]LogBlueprintUserMessages: [HouseLevel_C_2] 13
+[2016.04.28-19.56.51:683][201]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:708][202]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:734][203]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:759][204]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:784][205]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:810][206]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:835][207]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:861][208]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:887][209]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:912][210]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:938][211]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.51:966][212]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:003][213]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:031][214]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:062][215]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:096][216]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:125][217]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:153][218]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:182][219]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:211][220]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:241][221]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:270][222]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:302][223]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:330][224]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:359][225]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:387][226]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:414][227]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:442][228]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:469][229]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:496][230]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:523][231]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:550][232]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:585][233]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:604][234]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:631][235]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:658][236]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:683][237]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:709][238]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:735][239]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:761][240]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:791][241]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:818][242]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:848][243]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:882][244]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:910][245]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:940][246]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.52:973][247]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:003][248]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:034][249]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:063][250]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:091][251]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:121][252]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:152][253]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:181][254]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:211][255]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:241][256]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:271][257]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:307][258]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:340][259]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:372][260]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:406][261]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:438][262]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:471][263]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:501][264]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:533][265]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:565][266]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:597][267]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:632][268]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:665][269]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:696][270]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:730][271]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:761][272]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:793][273]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:826][274]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:858][275]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:891][276]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:922][277]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:956][278]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.53:991][279]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:024][280]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:057][281]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:091][282]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:125][283]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:155][284]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:187][285]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:220][286]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:252][287]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:284][288]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:321][289]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:356][290]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:386][291]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:418][292]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:450][293]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:483][294]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:515][295]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:548][296]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:585][297]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:623][298]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:670][299]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:707][300]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:747][301]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:788][302]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:827][303]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:867][304]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:903][305]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:942][306]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.54:985][307]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.55:028][308]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.55:070][309]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.55:108][310]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.55:148][311]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.55:186][312]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.55:226][313]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.55:268][314]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.55:312][315]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.55:355][316]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.55:392][317]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.55:436][318]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.55:478][319]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.55:518][320]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.55:559][321]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.55:602][322]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.55:646][323]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.55:689][324]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.55:731][325]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.55:771][326]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.55:814][327]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.55:856][328]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.55:892][329]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.55:935][330]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.55:976][331]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.56:024][332]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.56:066][333]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.56:111][334]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.56:149][335]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.56:187][336]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.56:226][337]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.56:267][338]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.56:313][339]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.56:356][340]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.56:397][341]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.56:436][342]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.56:475][343]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.56:517][344]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.56:558][345]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.56:594][346]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.56:634][347]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.56:681][348]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.56:721][349]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.56:764][350]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.56:802][351]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.56:840][352]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.56:881][353]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.56:920][354]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.56:964][355]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:012][356]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:051][357]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:091][358]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:133][359]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:174][360]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:214][361]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:253][362]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:296][363]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:344][364]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:389][365]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:431][366]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:471][367]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:511][368]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:551][369]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:593][370]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:633][371]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:677][372]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:716][373]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:752][374]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:794][375]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:832][376]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:872][377]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:904][378]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:939][379]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.57:985][380]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:019][381]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:053][382]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:088][383]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:123][384]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:160][385]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:194][386]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:227][387]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:263][388]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:303][389]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:351][390]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:387][391]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:424][392]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:463][393]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:498][394]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:533][395]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:566][396]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:601][397]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:642][398]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:677][399]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:715][400]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:753][401]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:795][402]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:840][403]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:882][404]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:927][405]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.58:973][406]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.59:018][407]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.59:066][408]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.59:110][409]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.59:152][410]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.59:197][411]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.59:239][412]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.59:285][413]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.59:332][414]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.59:377][415]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.59:420][416]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.59:464][417]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.59:509][418]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.59:550][419]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.59:593][420]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.59:638][421]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.59:689][422]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.59:731][423]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.59:772][424]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.59:815][425]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.59:852][426]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.59:890][427]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.59:929][428]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.56.59:968][429]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:013][430]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:049][431]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:086][432]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:123][433]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:162][434]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:198][435]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:236][436]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:274][437]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:315][438]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:357][439]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:391][440]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:429][441]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:464][442]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:506][443]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:546][444]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:587][445]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:629][446]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:678][447]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:719][448]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:763][449]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:810][450]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:852][451]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:896][452]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:939][453]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.00:988][454]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.01:032][455]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.01:079][456]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.01:121][457]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.01:161][458]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.01:201][459]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.01:242][460]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.01:285][461]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.01:334][462]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.01:376][463]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.01:417][464]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.01:457][465]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.01:498][466]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.01:540][467]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.01:580][468]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.01:628][469]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.01:669][470]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.01:713][471]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.01:746][472]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.01:783][473]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.01:820][474]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.01:857][475]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.01:894][476]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.01:929][477]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.01:964][478]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:003][479]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:038][480]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:073][481]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:109][482]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:144][483]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:179][484]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:215][485]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:250][486]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:288][487]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:327][488]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:363][489]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:399][490]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:434][491]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:469][492]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:504][493]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:539][494]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:573][495]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:610][496]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:648][497]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:685][498]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:717][499]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:753][500]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:787][501]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:820][502]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:854][503]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:887][504]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:921][505]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.02:964][506]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:006][507]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:050][508]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:090][509]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:132][510]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:175][511]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:215][512]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:256][513]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:301][514]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:352][515]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:395][516]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:438][517]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:476][518]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:511][519]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:545][520]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:580][521]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:615][522]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:654][523]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:691][524]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:726][525]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:763][526]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:798][527]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.03:800][527]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.03:801][527]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:833][528]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.03:835][528]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.03:835][528]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:871][529]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.03:873][529]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.03:873][529]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:906][530]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.03:908][530]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.03:909][530]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:943][531]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.03:946][531]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.03:947][531]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.03:982][532]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.03:984][532]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.03:985][532]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:017][533]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:019][533]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:019][533]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:050][534]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:052][534]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:053][534]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:084][535]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:086][535]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:086][535]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:117][536]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:120][536]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:120][536]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:150][537]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:152][537]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:152][537]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:182][538]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:185][538]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:185][538]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:217][539]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:219][539]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:219][539]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:250][540]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:252][540]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:252][540]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:285][541]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:286][541]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:286][541]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:326][542]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:328][542]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:329][542]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:361][543]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:363][543]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:363][543]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:395][544]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:397][544]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:398][544]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:432][545]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:434][545]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:434][545]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:465][546]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:467][546]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:468][546]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:502][547]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:504][547]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:504][547]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:538][548]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:540][548]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:540][548]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:574][549]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:576][549]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:577][549]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:610][550]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:612][550]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:613][550]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:649][551]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:651][551]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:651][551]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:683][552]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:685][552]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:685][552]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:720][553]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:721][553]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:721][553]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:756][554]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:759][554]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:759][554]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:792][555]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:794][555]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:795][555]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:829][556]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:831][556]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:831][556]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:872][557]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:874][557]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:874][557]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:910][558]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:912][558]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:912][558]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.04:955][559]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:959][559]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.04:959][559]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.05:003][560]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:006][560]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:006][560]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.05:049][561]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:051][561]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:051][561]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.05:091][562]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:094][562]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:094][562]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.05:132][563]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:133][563]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:133][563]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.05:174][564]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:176][564]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:177][564]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.05:217][565]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:219][565]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:219][565]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.05:261][566]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Landed
+[2016.04.28-19.57.05:263][566]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:265][566]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:265][566]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.05:310][567]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:311][567]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:311][567]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.05:359][568]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:360][568]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:360][568]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.05:408][569]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:411][569]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:412][569]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.05:453][570]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:454][570]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:455][570]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.05:497][571]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:499][571]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:499][571]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.05:540][572]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:543][572]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:543][572]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.05:582][573]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:583][573]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:583][573]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.05:629][574]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:631][574]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:631][574]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.05:681][575]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:684][575]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:684][575]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.05:722][576]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:724][576]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:724][576]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.05:768][577]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:770][577]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:770][577]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.05:810][578]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:812][578]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:812][578]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.05:857][579]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:859][579]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:860][579]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.05:902][580]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:904][580]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:905][580]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.05:955][581]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:958][581]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.05:959][581]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.06:010][582]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:012][582]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:012][582]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.06:063][583]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:064][583]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:064][583]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.06:191][584]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:191][584]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:191][584]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.06:197][585]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:199][585]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:199][585]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.06:229][586]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:230][586]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:230][586]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.06:264][587]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:266][587]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:266][587]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.06:297][588]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:299][588]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:299][588]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.06:344][589]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:346][589]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:347][589]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.06:388][590]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:390][590]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:391][590]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.06:429][591]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:429][591]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:429][591]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.06:470][592]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:470][592]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:470][592]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.06:511][593]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:512][593]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:513][593]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.06:552][594]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:553][594]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:553][594]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.06:599][595]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:601][595]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:601][595]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.06:641][596]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:641][596]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:642][596]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.06:689][597]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:690][597]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:690][597]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.06:733][598]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:735][598]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:736][598]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.06:775][599]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:777][599]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:777][599]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.06:815][600]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:818][600]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:818][600]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.06:859][601]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:861][601]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:861][601]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.06:902][602]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:904][602]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:904][602]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.06:951][603]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:953][603]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.06:953][603]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.07:001][604]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:003][604]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:003][604]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.07:040][605]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:042][605]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:043][605]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.07:085][606]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:087][606]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:087][606]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.07:128][607]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:129][607]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:129][607]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.07:171][608]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:173][608]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:174][608]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.07:215][609]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:217][609]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:217][609]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.07:259][610]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:261][610]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:261][610]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.07:304][611]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:306][611]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:307][611]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.07:355][612]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:357][612]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:357][612]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.07:399][613]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:401][613]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:401][613]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.07:442][614]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:443][614]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:444][614]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.07:487][615]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:489][615]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:490][615]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.07:533][616]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:534][616]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:535][616]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.07:578][617]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Landed
+[2016.04.28-19.57.07:579][617]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:582][617]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:582][617]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.07:628][618]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:630][618]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:630][618]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.07:680][619]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:682][619]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:682][619]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.07:724][620]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:726][620]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:727][620]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.07:770][621]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:772][621]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:772][621]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.07:813][622]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:814][622]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:815][622]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.07:859][623]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:861][623]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:861][623]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.07:903][624]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:905][624]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:905][624]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.07:952][625]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:954][625]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.07:954][625]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.08:001][626]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:002][626]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:002][626]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.08:050][627]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:051][627]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:051][627]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.08:096][628]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:098][628]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:099][628]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.08:140][629]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:142][629]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:142][629]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.08:186][630]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:188][630]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:188][630]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.08:230][631]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:232][631]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:232][631]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.08:273][632]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:275][632]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:275][632]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.08:324][633]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:326][633]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:326][633]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.08:375][634]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:377][634]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:378][634]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.08:420][635]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:422][635]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:422][635]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.08:465][636]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:467][636]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:467][636]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.08:512][637]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:514][637]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:515][637]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.08:558][638]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:560][638]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:560][638]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.08:602][639]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:605][639]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:605][639]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.08:648][640]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:650][640]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:651][640]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.08:694][641]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:696][641]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-160.768 Y=-1115.536 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:697][641]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.08:744][642]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:746][642]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.08:789][643]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:791][643]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.08:835][644]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:838][644]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.08:877][645]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:878][645]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.08:927][646]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:930][646]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.08:972][647]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.08:973][647]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.09:025][648]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:027][648]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.09:069][649]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:073][649]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.09:113][650]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:114][650]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.09:158][651]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:161][651]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:161][651]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.09:202][652]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:205][652]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:206][652]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.09:247][653]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:250][653]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:250][653]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.09:297][654]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:299][654]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:300][654]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.09:341][655]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:343][655]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:343][655]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.09:392][656]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:394][656]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:394][656]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.09:439][657]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:441][657]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:441][657]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.09:485][658]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:487][658]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:488][658]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.09:535][659]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:538][659]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:538][659]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.09:580][660]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:582][660]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:582][660]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.09:636][661]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:638][661]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:638][661]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.09:690][662]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:691][662]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:691][662]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.09:739][663]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:741][663]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:741][663]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.09:792][664]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:794][664]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:795][664]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.09:843][665]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:846][665]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:847][665]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.09:894][666]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:895][666]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:896][666]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.09:945][667]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:948][667]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.09:948][667]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.10:004][668]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:006][668]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:006][668]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.10:053][669]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:055][669]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:056][669]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.10:105][670]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:108][670]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:108][670]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.10:153][671]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:155][671]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:155][671]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.10:205][672]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:205][672]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:205][672]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.10:258][673]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:261][673]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:261][673]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.10:310][674]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:313][674]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:313][674]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.10:370][675]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:372][675]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:372][675]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.10:423][676]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:424][676]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:424][676]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.10:474][677]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:476][677]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:477][677]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.10:525][678]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:528][678]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:528][678]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.10:576][679]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:579][679]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:579][679]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.10:631][680]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:634][680]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:634][680]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.10:691][681]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:692][681]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:692][681]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.10:742][682]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:745][682]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:745][682]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.10:795][683]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:798][683]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:798][683]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.10:845][684]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:848][684]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:849][684]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.10:895][685]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:897][685]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:897][685]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.10:949][686]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:951][686]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.10:952][686]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.11:008][687]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:009][687]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:010][687]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.11:058][688]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:060][688]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:060][688]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.11:110][689]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:113][689]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:113][689]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.11:164][690]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:167][690]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:167][690]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.11:215][691]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:218][691]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:218][691]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.11:265][692]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:268][692]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:268][692]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.11:326][693]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:328][693]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:328][693]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.11:376][694]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:379][694]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:379][694]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.11:431][695]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:434][695]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:434][695]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.11:482][696]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:483][696]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:483][696]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.11:538][697]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:540][697]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:540][697]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.11:591][698]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:594][698]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:594][698]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.11:648][699]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:650][699]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:650][699]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.11:710][700]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:713][700]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:713][700]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.11:763][701]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:765][701]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:766][701]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.11:818][702]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:820][702]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:820][702]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.11:871][703]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:872][703]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:872][703]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.11:927][704]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:930][704]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:931][704]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.11:981][705]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:983][705]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.11:983][705]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.12:041][706]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:043][706]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:044][706]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.12:099][707]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:101][707]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:102][707]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.12:152][708]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:154][708]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:154][708]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.12:205][709]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:208][709]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:208][709]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.12:262][710]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:265][710]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:266][710]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.12:323][711]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:326][711]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:326][711]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.12:384][712]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:386][712]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:386][712]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.12:442][713]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:445][713]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:445][713]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.12:505][714]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:507][714]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:507][714]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.12:561][715]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:565][715]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:565][715]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.12:610][716]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:612][716]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:612][716]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.12:676][717]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:680][717]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:681][717]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.12:733][718]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:736][718]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:736][718]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.12:788][719]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:790][719]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:790][719]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.12:844][720]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:848][720]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:848][720]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.12:899][721]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:902][721]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:902][721]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.12:958][722]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:961][722]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.12:961][722]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.13:018][723]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:020][723]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:021][723]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.13:078][724]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:080][724]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:080][724]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.13:132][725]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:134][725]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:134][725]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.13:190][726]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:191][726]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:191][726]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.13:246][727]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:250][727]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:250][727]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.13:301][728]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:303][728]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:303][728]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.13:366][729]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:369][729]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:369][729]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.13:425][730]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:427][730]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:427][730]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.13:485][731]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:488][731]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:488][731]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.13:540][732]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:543][732]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:543][732]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.13:596][733]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:599][733]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:599][733]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.13:655][734]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:657][734]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:657][734]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.13:717][735]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:719][735]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:720][735]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.13:778][736]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:779][736]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:780][736]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.13:780][736]LogScript:Warning: Cannot access 'SkyLight_1'. It is pending kill. Property: 'SkyLight_1_ExecuteUbergraph_HouseLevel_RefProperty'
+	HouseLevel_C /Temp/Autosaves/Game/Levels/UEDPCHouseLevel.HouseLevel:PersistentLevel.HouseLevel_C_2
+	Function /Temp/Autosaves/Game/Levels/UEDPCHouseLevel.HouseLevel_C:ExecuteUbergraph_HouseLevel:0158
+[2016.04.28-19.57.13:834][737]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:836][737]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:837][737]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.13:892][738]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:894][738]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:894][738]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.13:951][739]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:953][739]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.13:953][739]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.14:014][740]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:016][740]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:016][740]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.14:079][741]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:081][741]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:081][741]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.14:138][742]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:141][742]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:141][742]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.14:193][743]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:195][743]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:195][743]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.14:251][744]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:253][744]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:254][744]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.14:309][745]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:312][745]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:312][745]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.14:370][746]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:371][746]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:372][746]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.14:428][747]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:429][747]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:430][747]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.14:485][748]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:487][748]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:487][748]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.14:543][749]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:545][749]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:546][749]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.14:599][750]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:601][750]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:602][750]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.14:660][751]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:662][751]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:663][751]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.14:723][752]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:725][752]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:726][752]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.14:778][753]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:779][753]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:780][753]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.14:945][754]LogPackageName: SearchForPackageOnDisk took   0.109s to resolve Main.umap.
+[2016.04.28-19.57.14:948][754]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=121.622 Y=-1590.000 Z=630.000] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:950][754]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-140.568 Y=-835.009 Z=718.567] for [SilenceSpirit_C]
+[2016.04.28-19.57.14:950][754]PIE:Warning: Warning The widget 'Grandpa_C' was already added to the screen.
+[2016.04.28-19.57.15:033][755]LogPackageName: SearchForPackageOnDisk took   0.077s to resolve Main.umap.
+[2016.04.28-19.57.15:033][755]LogNet: Browse: /Game/Levels/Main
+[2016.04.28-19.57.15:033][755]LogLoad: LoadMap: /Game/Levels/Main
+[2016.04.28-19.57.15:089][755]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C20E6F8860
+[2016.04.28-19.57.15:129][755]LogMemory: Platform Memory Stats for Windows
+[2016.04.28-19.57.15:129][755]LogMemory: Process Physical Memory: 576.93 MB used, 578.86 MB peak
+[2016.04.28-19.57.15:129][755]LogMemory: Process Virtual Memory: 516.05 MB used, 518.59 MB peak
+[2016.04.28-19.57.15:129][755]LogMemory: Physical Memory: 7606.51 MB used, 16273.04 MB total
+[2016.04.28-19.57.15:129][755]LogMemory: Virtual Memory: 1172.71 MB used, 134217728.00 MB total
+[2016.04.28-19.57.15:129][755]LogMemory: 
+[2016.04.28-19.57.15:129][755]Allocator Stats for TBB: (not implemented)
+[2016.04.28-19.57.15:147][755]LogAIModule: Creating AISystem for world Main
+[2016.04.28-19.57.15:202][755]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.28-19.57.15:204][755]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 0) at 2016.04.28-15.57.15
+[2016.04.28-19.57.15:204][755]LogWorld: Bringing up level for play took: 0.000398
+[2016.04.28-19.57.15:204][755]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.04.28-19.57.17:772][819]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2016.04.28-19.57.17:774][819]LogEngine: All Windows Closed
+[2016.04.28-19.57.17:774][819]LogWindows: FPlatformMisc::RequestExit(0)
+[2016.04.28-19.57.18:625][820]LogExit: Preparing to exit.
+[2016.04.28-19.57.18:721][820]LogExit: Game engine shut down
+[2016.04.28-19.57.19:016][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C27BBC6160
+[2016.04.28-19.57.19:016][820]LogExit: Object subsystem successfully closed.
+[2016.04.28-19.57.19:033][820]LogD3D11RHI: Shutdown
+[2016.04.28-19.57.19:033][820]LogD3D11RHI: CleanupD3DDevice
+[2016.04.28-19.57.19:170][820]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.28-19.57.19:185][820]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (119)
+[2016.04.28-19.57.20:113][820]LogModuleManager: Shutting down and abandoning module AutomationController (118)
+[2016.04.28-19.57.20:114][820]LogModuleManager: Shutting down and abandoning module AutomationWorker (117)
+[2016.04.28-19.57.20:114][820]LogModuleManager: Shutting down and abandoning module CharacterAI (116)
+[2016.04.28-19.57.20:114][820]LogModuleManager: Shutting down and abandoning module AITestSuite (115)
+[2016.04.28-19.57.20:114][820]LogModuleManager: Shutting down and abandoning module GameplayDebugger (114)
+[2016.04.28-19.57.20:114][820]LogModuleManager: Shutting down and abandoning module AIModule (113)
+[2016.04.28-19.57.20:114][820]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (112)
+[2016.04.28-19.57.20:114][820]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (111)
+[2016.04.28-19.57.20:114][820]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (110)
+[2016.04.28-19.57.20:114][820]LogModuleManager: Shutting down and abandoning module ProfilerService (109)
+[2016.04.28-19.57.20:313][820]LogModuleManager: Shutting down and abandoning module TaskGraph (108)
+[2016.04.28-19.57.20:313][820]LogModuleManager: Shutting down and abandoning module SlateRemote (107)
+[2016.04.28-19.57.20:313][820]LogModuleManager: Shutting down and abandoning module SteamVRController (106)
+[2016.04.28-19.57.20:313][820]LogModuleManager: Shutting down and abandoning module SteamVR (105)
+[2016.04.28-19.57.20:313][820]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (104)
+[2016.04.28-19.57.20:313][820]LogModuleManager: Shutting down and abandoning module OculusLibrary (103)
+[2016.04.28-19.57.20:313][820]LogModuleManager: Shutting down and abandoning module OculusInput (102)
+[2016.04.28-19.57.20:313][820]LogModuleManager: Shutting down and abandoning module LeapMotionController (101)
+[2016.04.28-19.57.20:339][820]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (100)
+[2016.04.28-19.57.20:339][820]LogModuleManager: Shutting down and abandoning module CableComponent (99)
+[2016.04.28-19.57.20:339][820]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (98)
+[2016.04.28-19.57.20:339][820]LogModuleManager: Shutting down and abandoning module HTML5Networking (97)
+[2016.04.28-19.57.20:339][820]LogModuleManager: Shutting down and abandoning module DesktopPlatform (96)
+[2016.04.28-19.57.20:339][820]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (95)
+[2016.04.28-19.57.20:340][820]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.04.28-19.57.20:340][820]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (93)
+[2016.04.28-19.57.20:340][820]LogModuleManager: Shutting down and abandoning module UObjectPlugin (92)
+[2016.04.28-19.57.20:340][820]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (91)
+[2016.04.28-19.57.20:340][820]LogModuleManager: Shutting down and abandoning module SourceControl (90)
+[2016.04.28-19.57.20:340][820]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (89)
+[2016.04.28-19.57.20:340][820]LogModuleManager: Shutting down and abandoning module FileLogging (88)
+[2016.04.28-19.57.20:340][820]LogModuleManager: Shutting down and abandoning module AnalyticsBlueprintLibrary (87)
+[2016.04.28-19.57.20:340][820]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.04.28-19.57.20:340][820]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.04.28-19.57.20:340][820]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.04.28-19.57.20:340][820]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.04.28-19.57.20:346][820]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.04.28-19.57.20:346][820]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.04.28-19.57.20:346][820]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.04.28-19.57.20:346][820]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.04.28-19.57.20:346][820]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.04.28-19.57.20:347][820]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.04.28-19.57.20:347][820]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.04.28-19.57.20:347][820]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.04.28-19.57.20:347][820]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.04.28-19.57.20:347][820]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.04.28-19.57.20:347][820]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.04.28-19.57.20:347][820]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.04.28-19.57.20:347][820]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.04.28-19.57.20:347][820]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.04.28-19.57.20:347][820]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.04.28-19.57.20:347][820]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.04.28-19.57.20:352][820]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.04.28-19.57.20:352][820]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.04.28-19.57.20:352][820]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.04.28-19.57.20:352][820]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.04.28-19.57.20:352][820]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.04.28-19.57.20:352][820]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.04.28-19.57.20:352][820]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.04.28-19.57.20:352][820]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.04.28-19.57.20:352][820]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.04.28-19.57.20:352][820]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.04.28-19.57.20:620][820]LogDerivedDataCache: Shutdown
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.28-19.57.20:620][820]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.28-19.57.20:621][820]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.28-19.57.20:621][820]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.28-19.57.20:621][820]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.28-19.57.20:621][820]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.28-19.57.20:621][820]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.28-19.57.20:621][820]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.28-19.57.20:621][820]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.28-19.57.20:621][820]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.28-19.57.20:621][820]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.28-19.57.20:622][820]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.28-19.57.20:622][820]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.28-19.57.20:622][820]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.28-19.57.20:622][820]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.28-19.57.20:622][820]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.28-19.57.20:622][820]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.28-19.57.20:622][820]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.28-19.57.20:622][820]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.28-19.57.20:622][820]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.28-19.57.20:622][820]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.28-19.57.20:625][820]LogExit: Exiting.
+[2016.04.28-19.57.20:628][820]Log file closed, 04/28/16 15:57:20
